@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF0"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="@drawable/shape_for_submit_result"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/px_20" >
+
+        <TextView
+            android:id="@+id/activity_competition_submit_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px_30"
+            android:layout_marginTop="@dimen/px_30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#e5e5e5" />
+
+        <TextView
+            android:id="@+id/activity_submit_result_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/competition_result_color" />
+
+        <TextView
+            android:id="@+id/activity_submit_result_combater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/competition_result_color" />
+
+        <TextView
+            android:id="@+id/activity_submit_result_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/competition_result_color" />
+
+        <TextView
+            android:id="@+id/activity_submit_result_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/competition_result_color" />
+
+        <TextView
+            android:id="@+id/activity_submit_result_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/competition_result_color" />
+
+        <TextView
+            android:id="@+id/activity_submit_result_illustration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:textColor="@color/competition_result_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="@dimen/px_20"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:id="@+id/activity_person_information_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px_20"
+            android:layout_marginTop="@dimen/px_20" >
+
+            <ImageView
+                android:id="@+id/activity_submit_result_head"
+                android:layout_width="@dimen/px_90"
+                android:layout_height="@dimen/px_90"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/px_90"
+                android:layout_height="@dimen/px_90"
+                android:src="@drawable/head"
+                tools:ignore="ContentDescription" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_120"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/btn_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_radiobutton"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/btn_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_100"
+                    android:background="@drawable/selector_radiobutton"
+                    android:button="@null"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/btn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_100"
+                    android:background="@drawable/selector_radiobutton"
+                    android:button="@null"
+                    android:gravity="center" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_180" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/win" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_140"
+                    android:text="@string/dogfall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_280"
+                    android:text="@string/lose" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_person_information_commit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_80"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_30"
+        android:background="@drawable/button_fillet_bright_green"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="#fff"
+        android:textSize="@dimen/px_30" />
+
+</LinearLayout>

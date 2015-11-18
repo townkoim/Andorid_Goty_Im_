@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GetuiSdk2.4.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android_App2/libs/GetuiSdk2.4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

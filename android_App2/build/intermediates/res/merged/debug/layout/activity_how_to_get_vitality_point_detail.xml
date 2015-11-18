@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8" >
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/px_20" >
+
+        <TextView
+            android:id="@+id/activity_vitality_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:layout_width="@dimen/px_110"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/px_10"
+            android:background="@drawable/vitality"
+            android:gravity="center"
+            android:text="活力"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_10"
+        android:text="@string/how_to_get"
+        android:textColor="#908F90"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:id="@+id/activity_vitality_detail_tip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_10"
+        android:textColor="#908F90"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:id="@+id/activity_vitality_detail_tip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_10"
+        android:textColor="#908F90"
+        android:textSize="@dimen/text_size_18" />
+
+    <LinearLayout
+        android:id="@+id/activity_vitality_detail_tip_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/px_10"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_120"
+            android:layout_weight="1"
+            android:background="#EFEFEF"
+            android:paddingLeft="@dimen/px_10" >
+
+            <ImageView
+                android:id="@+id/activity_vitality_detail_tip_img_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart_press"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/activity_vitality_detail_tip_img_heart"
+                android:text="@string/invatation"
+                android:textColor="#19B525"
+                android:textSize="@dimen/text_size_18" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_120"
+            android:layout_marginLeft="@dimen/px_10"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_weight="1"
+            android:background="#EFEFEF" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/activity_vitality_detail_tip_img_chat"
+                android:src="@drawable/chat_press" />
+
+            <View
+                android:id="@+id/activity_vitality_detail_tip_img_chat"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/activity_vitality_detail_tip_img_chat"
+                android:text="@string/chating"
+                android:textColor="#19B525"
+                android:textSize="@dimen/text_size_18" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_120"
+            android:layout_weight="1"
+            android:background="#EFEFEF" >
+
+            <ImageView
+                android:id="@+id/activity_vitality_detail_tip_img_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/add_friends_press" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/activity_vitality_detail_tip_img_add"
+                android:text="@string/add_friends"
+                android:textColor="#19B525"
+                android:textSize="@dimen/text_size_18" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_vitality_detail_tip3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_10"
+        android:textColor="#908F90"
+        android:textSize="@dimen/text_size_18"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/activity_vitality_detail_tip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_10"
+        android:textColor="#908F90"
+        android:textSize="@dimen/text_size_18"
+        android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_how_to_get_vitality_point_detail.xml -->

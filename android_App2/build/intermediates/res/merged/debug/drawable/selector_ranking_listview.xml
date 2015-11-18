@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/ranking_list_color_press" android:state_pressed="true"/>
+    <!-- pressed -->
+    <item android:drawable="@color/ranking_list_color_press" android:state_focused="true"/>
+    <!-- focused -->
+    <item android:drawable="@color/ranking_list_color"/>
+    <!-- default -->
+
+</selector><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/drawable/selector_ranking_listview.xml -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_88"
+    android:background="@drawable/selector_relativelayout" >
+
+    <TextView
+        android:id="@+id/listview_vitality_point_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/px_20"
+        android:textColor="#000"
+        android:textSize="@dimen/text_size_15" />
+
+    <View
+        android:id="@+id/listview_vitality_point_item_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/px_20"
+        android:background="#e5e5e5" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/px_150"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/px_20" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/plus"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/listview_vitality_point_item_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_80"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size_15" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/listview_vitality_point_item.xml -->

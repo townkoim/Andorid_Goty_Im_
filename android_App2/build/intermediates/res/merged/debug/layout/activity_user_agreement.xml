@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/layout"
+        layout="@layout/common_title" />
+
+    <ScrollView
+        android:layout_below="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_30"
+            android:text="@string/user_agreement"
+            android:textSize="@dimen/text_size_14" />
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_user_agreement.xml -->

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gesture_image">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android_App2/libs/gesture_image.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

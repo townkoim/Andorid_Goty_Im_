@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/px_400"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_for_submit_result"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:gravity="center"
+            android:text="@string/select_fee"
+            android:textColor="#231815"
+            android:textSize="@dimen/text_size_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#696969" />
+
+        <ListView
+            android:paddingLeft="@dimen/px_1"
+            android:paddingRight="@dimen/px_1"
+            android:id="@+id/dialog_competition_fee_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000" >
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_8"
+            android:background="#00000000" />
+    </LinearLayout>
+
+</LinearLayout>

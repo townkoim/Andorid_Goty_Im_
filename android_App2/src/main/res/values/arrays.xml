@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 字符串数组  <string-array > -->
+<resources>
+
+    <string-array name="occupation">
+        <item>计算机互联网/通信</item>
+        <item>生产/工艺/制造</item>
+        <item>医疗/护理/制药</item>
+        <item>金融/银行/投资/保险</item>
+        <item>商业/服务业/个人经营</item>
+        <item>文化/广告/传媒</item>
+        <item>娱乐/艺术/表演</item>
+        <item>律师/法务</item>
+        <item>教育/培训</item>
+        <item>公务员/事业单位</item>
+        <item>模特</item>
+        <item>空姐</item>
+        <item>学生</item>
+        <item>其他职业</item>
+    </string-array>
+    <string-array name="sports">
+        <item>羽毛球</item>
+        <item>篮球</item>
+        <item>足球</item>
+        <item>百米跑</item>
+        <item>俯卧撑</item>
+        <item>乒乓球</item>
+        <item>网球</item>
+        <item>桌球</item>
+        <item>排球</item>
+        <item>高尔夫</item>
+        <item>游泳</item>
+    </string-array>
+    <string-array name="competition_fee">
+        <item>AA</item>
+        <item>我出</item>
+        <item>求请客</item>
+        <item>谁输谁出</item>
+        <item>免费</item>
+    </string-array>
+    <string-array name="smiley_array">
+        <item>expression_bq01</item>
+        <item>expression_bq02</item>
+        <item>expression_bq03</item>
+        <item>expression_bq04</item>
+        <item>expression_bq05</item>
+        <item>expression_bq06</item>
+        <item>expression_bq07</item>
+        <item>expression_bq08</item>
+        <item>expression_bq09</item>
+        <item>expression_bq10</item>
+        <item>expression_bq11</item>
+        <item>expression_bq12</item>
+        <item>expression_bq13</item>
+        <item>expression_bq14</item>
+        <item>expression_bq15</item>
+        <item>expression_bq16</item>
+        <item>expression_bq17</item>
+        <item>expression_bq18</item>
+        <item>expression_bq19</item>
+        <item>expression_bq20</item>
+        <item>expression_bq21</item>
+        <item>expression_bq22</item>
+        <item>expression_bq23</item>
+        <item>expression_bq24</item>
+        <item>expression_bq25</item>
+        <item>expression_bq26</item>
+        <item>expression_bq27</item>
+        <item>expression_bq28</item>
+        <item>expression_bq29</item>
+        <item>expression_bq30</item>
+    </string-array>
+
+    <string-array name="bug_frequency">
+        <item>总是出现</item>
+        <item>有时出现</item>
+        <item>随机出现</item>
+        <item>无法重现</item>
+    </string-array>
+</resources>

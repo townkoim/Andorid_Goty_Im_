@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="bug_frequency">
+        <item>总是出现</item>
+        <item>有时出现</item>
+        <item>随机出现</item>
+        <item>无法重现</item>
+    </string-array>
+    <string-array name="competition_fee">
+        <item>AA</item>
+        <item>我出</item>
+        <item>求请客</item>
+        <item>谁输谁出</item>
+        <item>免费</item>
+    </string-array>
+    <string-array name="occupation">
+        <item>计算机互联网/通信</item>
+        <item>生产/工艺/制造</item>
+        <item>医疗/护理/制药</item>
+        <item>金融/银行/投资/保险</item>
+        <item>商业/服务业/个人经营</item>
+        <item>文化/广告/传媒</item>
+        <item>娱乐/艺术/表演</item>
+        <item>律师/法务</item>
+        <item>教育/培训</item>
+        <item>公务员/事业单位</item>
+        <item>模特</item>
+        <item>空姐</item>
+        <item>学生</item>
+        <item>其他职业</item>
+    </string-array>
+    <string-array name="smiley_array">
+        <item>expression_bq01</item>
+        <item>expression_bq02</item>
+        <item>expression_bq03</item>
+        <item>expression_bq04</item>
+        <item>expression_bq05</item>
+        <item>expression_bq06</item>
+        <item>expression_bq07</item>
+        <item>expression_bq08</item>
+        <item>expression_bq09</item>
+        <item>expression_bq10</item>
+        <item>expression_bq11</item>
+        <item>expression_bq12</item>
+        <item>expression_bq13</item>
+        <item>expression_bq14</item>
+        <item>expression_bq15</item>
+        <item>expression_bq16</item>
+        <item>expression_bq17</item>
+        <item>expression_bq18</item>
+        <item>expression_bq19</item>
+        <item>expression_bq20</item>
+        <item>expression_bq21</item>
+        <item>expression_bq22</item>
+        <item>expression_bq23</item>
+        <item>expression_bq24</item>
+        <item>expression_bq25</item>
+        <item>expression_bq26</item>
+        <item>expression_bq27</item>
+        <item>expression_bq28</item>
+        <item>expression_bq29</item>
+        <item>expression_bq30</item>
+    </string-array>
+    <string-array name="sports">
+        <item>羽毛球</item>
+        <item>篮球</item>
+        <item>足球</item>
+        <item>百米跑</item>
+        <item>俯卧撑</item>
+        <item>乒乓球</item>
+        <item>网球</item>
+        <item>桌球</item>
+        <item>排球</item>
+        <item>高尔夫</item>
+        <item>游泳</item>
+    </string-array>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="aliceblue">#f0f8ff</color>
+    <color name="antiquewhite">#faebd7</color>
+    <color name="aqua">#00ffff</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="azure">#f0ffff</color>
+    <color name="beige">#f5f5dc</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="black">#000000</color>
+    <color name="blanchedalmond">#ffebcd</color>
+    <color name="blue">#0000ff</color>
+    <color name="blueviolet">#8a2be2</color>
+    <color name="brown">#a52a2a</color>
+    <color name="burlywood">#deb887</color>
+    <color name="cadetblue">#5f9ea0</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="chocolate">#d2691e</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/weiboSDK/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_sina_weibo_sdk_blue">#3B5998</color>
+    <color name="com_sina_weibo_sdk_loginview_text_color">#FFFFFF</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="common_backgroud">#EEEEEE</color>
+    <color name="common_button_blue">#83bde5</color>
+    <color name="common_title_bg">#00d250</color>
+    <color name="competition_detail_color">#717071</color>
+    <color name="competition_result_color">#595757</color>
+    <color name="competition_tips_color">#8c8c8c</color>
+    <color name="coral">#ff7f50</color>
+    <color name="cornflowerblue">#6495ed</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="crimson">#dc143c</color>
+    <color name="cyan">#00ffff</color>
+    <color name="darkblue">#00008b</color>
+    <color name="darkcyan">#008b8b</color>
+    <color name="darkgoldenrod">#b8860b</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#a9a9a9</color>
+    <color name="darkkhaki">#bdb76b</color>
+    <color name="darkmagenta">#8b008b</color>
+    <color name="darkolivegreen">#556b2f</color>
+    <color name="darkorange">#ff8c00</color>
+    <color name="darkorchid">#9932cc</color>
+    <color name="darkred">#8b0000</color>
+    <color name="darksalmon">#e9967a</color>
+    <color name="darkseagreen">#8fbc8f</color>
+    <color name="darkslateblue">#483d8b</color>
+    <color name="darkslategray">#2f4f4f</color>
+    <color name="darkslategrey">#2f4f4f</color>
+    <color name="darkturquoise">#00ced1</color>
+    <color name="darkviolet">#9400d3</color>
+    <color name="deeppink">#ff1493</color>
+    <color name="deepskyblue">#00bfff</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="dialog">#00000000</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="firebrick">#b22222</color>
+    <color name="floralwhite">#fffaf0</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="fuchsia">#ff00ff</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="ghostwhite">#f8f8ff</color>
+    <color name="gold">#ffd700</color>
+    <color name="goldenrod">#daa520</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="gray_text">#717071</color>
+    <color name="green">#359D3A</color>
+    <color name="greenyellow">#adff2f</color>
+    <color name="grey">#808080</color>
+    <color name="honeydew">#f0fff0</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="indianred">#cd5c5c</color>
+    <color name="indigo">#4b0082</color>
+    <color name="ivory">#fffff0</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavenderblush">#fff0f5</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="lemonchiffon">#fffacd</color>
+    <color name="lightblue">#add8e6</color>
+    <color name="lightcoral">#f08080</color>
+    <color name="lightcyan">#e0ffff</color>
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="lightgreen">#90ee90</color>
+    <color name="lightgrey">#d3d3d3</color>
+    <color name="lightpink">#ffb6c1</color>
+    <color name="lightsalmon">#ffa07a</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="lightskyblue">#87cefa</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#b0c4de</color>
+    <color name="lightyellow">#ffffe0</color>
+    <color name="lime">#00ff00</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="linen">#faf0e6</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66cdaa</color>
+    <color name="mediumblue">#0000cd</color>
+    <color name="mediumorchid">#ba55d3</color>
+    <color name="mediumpurple">#9370db</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="mediumslateblue">#7b68ee</color>
+    <color name="mediumspringgreen">#00fa9a</color>
+    <color name="mediumturquoise">#48d1cc</color>
+    <color name="mediumvioletred">#c71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#f5fffa</color>
+    <color name="mistyrose">#ffe4e1</color>
+    <color name="moccasin">#ffe4b5</color>
+    <color name="navajowhite">#ffdead</color>
+    <color name="navy">#000080</color>
+    <color name="news_text">#00BE50</color>
+    <color name="oldlace">#fdf5e6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6b8e23</color>
+    <color name="orange">#ffa500</color>
+    <color name="orangered">#ff4500</color>
+    <color name="orchid">#da70d6</color>
+    <color name="palegoldenrod">#eee8aa</color>
+    <color name="palegreen">#98fb98</color>
+    <color name="paleturquoise">#afeeee</color>
+    <color name="palevioletred">#db7093</color>
+    <color name="papayawhip">#ffefd5</color>
+    <color name="peachpuff">#ffdab9</color>
+    <color name="person_information_textcolor">#c6c6c6</color>
+    <color name="peru">#cd853f</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="plum">#dda0dd</color>
+    <color name="powderblue">#b0e0e6</color>
+    <color name="purple">#800080</color>
+    <color name="ranking_area_color">#929292</color>
+    <color name="ranking_list_color">#ffffff</color>
+    <color name="ranking_list_color_press">#EFEFF1</color>
+    <color name="ranking_top3_color">#00be50</color>
+    <color name="ranking_top3_color_press">#00B446</color>
+    <color name="red">#ff0000</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="royalblue">#4169e1</color>
+    <color name="saddlebrown">#8b4513</color>
+    <color name="salmon">#fa8072</color>
+    <color name="sandybrown">#f4a460</color>
+    <color name="seaShell">#fff5ee</color>
+    <color name="seagreen">#2e8b57</color>
+    <color name="sienna">#a0522d</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="skyblue">#87ceeb</color>
+    <color name="slateblue">#6a5acd</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#fffafa</color>
+    <color name="springgreen">#00ff7f</color>
+    <color name="steelblue">#4682b4</color>
+    <color name="tab_menu_backgroud">#EFEEED</color>
+    <color name="tan">#d2b48c</color>
+    <color name="teal">#008080</color>
+    <color name="text_green">#39CC73</color>
+    <color name="thistle">#d8bfd8</color>
+    <color name="tomato">#ff6347</color>
+    <color name="turquoise">#40e0d0</color>
+    <color name="violet">#ee82ee</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="wheat">#f5deb3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_unselect">#9E9E9F</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="yellow">#ffff00</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="NumberPicker"><attr format="color" name="normalTextColor"/><attr format="dimension" name="normalTextSize"/><attr format="color" name="selecredTextColor"/><attr format="dimension" name="selecredTextSize"/><attr format="dimension" name="unitHight"/><attr format="integer" name="itemNumber"/><attr format="color" name="lineColor"/><attr format="dimension" name="maskHight"/><attr format="boolean" name="noEmpty"/><attr format="boolean" name="isEnable"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="bd_wallet_withdraw_tip_width">80.0dip</dimen>
+    <dimen name="bt_height">45.0dip</dimen>
+    <dimen name="button_text">17.0dip</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/weiboSDK/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_sina_weibo_sdk_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding">12dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_bottom">6dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_left">12dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_right">16dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_top">6dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_text_size">16.0sp</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3.0dip</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_line_indicator_gap_width">4.0dip</dimen>
+    <dimen name="default_line_indicator_line_width">12.0dip</dimen>
+    <dimen name="default_line_indicator_stroke_width">1.0dip</dimen>
+    <dimen name="default_title_indicator_clip_padding">4.0dip</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4.0dip</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20.0dip</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2.0dip</dimen>
+    <dimen name="default_title_indicator_footer_padding">7.0dip</dimen>
+    <dimen name="default_title_indicator_text_size">15.0dip</dimen>
+    <dimen name="default_title_indicator_title_padding">5.0dip</dimen>
+    <dimen name="default_title_indicator_top_padding">7.0dip</dimen>
+    <dimen name="dialog_img_height">150.0dip</dimen>
+    <dimen name="dialog_img_width">260.0dip</dimen>
+    <dimen name="dialog_width">300.0dip</dimen>
+    <dimen name="dimen_20dp">20.0dip</dimen>
+    <dimen name="dimen_30dp">30.0dip</dimen>
+    <dimen name="fast_max_width">68.0dip</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/pullToRefreshLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="header_text">17.0dip</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/pullToRefreshLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="key_height">50.0dip</dimen>
+    <dimen name="line_margin_10">10.0dip</dimen>
+    <dimen name="line_margin_15">15.0dip</dimen>
+    <dimen name="line_margin_20">20.0dip</dimen>
+    <dimen name="logo_height">28.0dip</dimen>
+    <dimen name="logo_width">100.0dip</dimen>
+    <dimen name="normal_text">14.0dip</dimen>
+    <dimen name="order_padding_bottom">23.0dip</dimen>
+    <dimen name="order_padding_top">27.0dip</dimen>
+    <dimen name="order_text_pitch">25.0dip</dimen>
+    <dimen name="px_0">0.0dip</dimen>
+    <dimen name="px_1">0.5dip</dimen>
+    <dimen name="px_10">5.0dip</dimen>
+    <dimen name="px_100">50.0dip</dimen>
+    <dimen name="px_1000">500.0dip</dimen>
+    <dimen name="px_1001">500.5dip</dimen>
+    <dimen name="px_1002">501.0dip</dimen>
+    <dimen name="px_1003">501.5dip</dimen>
+    <dimen name="px_1004">502.0dip</dimen>
+    <dimen name="px_1005">502.5dip</dimen>
+    <dimen name="px_1006">503.0dip</dimen>
+    <dimen name="px_1007">503.5dip</dimen>
+    <dimen name="px_1008">504.0dip</dimen>
+    <dimen name="px_1009">504.5dip</dimen>
+    <dimen name="px_101">50.5dip</dimen>
+    <dimen name="px_1010">505.0dip</dimen>
+    <dimen name="px_1011">505.5dip</dimen>
+    <dimen name="px_1012">506.0dip</dimen>
+    <dimen name="px_1013">506.5dip</dimen>
+    <dimen name="px_1014">507.0dip</dimen>
+    <dimen name="px_1015">507.5dip</dimen>
+    <dimen name="px_1016">508.0dip</dimen>
+    <dimen name="px_1017">508.5dip</dimen>
+    <dimen name="px_1018">509.0dip</dimen>
+    <dimen name="px_1019">509.5dip</dimen>
+    <dimen name="px_102">51.0dip</dimen>
+    <dimen name="px_1020">510.0dip</dimen>
+    <dimen name="px_1021">510.5dip</dimen>
+    <dimen name="px_1022">511.0dip</dimen>
+    <dimen name="px_1023">511.5dip</dimen>
+    <dimen name="px_1024">512.0dip</dimen>
+    <dimen name="px_103">51.5dip</dimen>
+    <dimen name="px_104">52.0dip</dimen>
+    <dimen name="px_105">52.5dip</dimen>
+    <dimen name="px_106">53.0dip</dimen>
+    <dimen name="px_107">53.5dip</dimen>
+    <dimen name="px_108">54.0dip</dimen>
+    <dimen name="px_109">54.5dip</dimen>
+    <dimen name="px_11">5.5dip</dimen>
+    <dimen name="px_110">55.0dip</dimen>
+    <dimen name="px_111">55.5dip</dimen>
+    <dimen name="px_112">56.0dip</dimen>
+    <dimen name="px_113">56.5dip</dimen>
+    <dimen name="px_114">57.0dip</dimen>
+    <dimen name="px_115">57.5dip</dimen>
+    <dimen name="px_116">58.0dip</dimen>
+    <dimen name="px_117">58.5dip</dimen>
+    <dimen name="px_118">59.0dip</dimen>
+    <dimen name="px_119">59.5dip</dimen>
+    <dimen name="px_12">6.0dip</dimen>
+    <dimen name="px_120">60.0dip</dimen>
+    <dimen name="px_121">60.5dip</dimen>
+    <dimen name="px_122">61.0dip</dimen>
+    <dimen name="px_123">61.5dip</dimen>
+    <dimen name="px_124">62.0dip</dimen>
+    <dimen name="px_125">62.5dip</dimen>
+    <dimen name="px_126">63.0dip</dimen>
+    <dimen name="px_127">63.5dip</dimen>
+    <dimen name="px_128">64.0dip</dimen>
+    <dimen name="px_129">64.5dip</dimen>
+    <dimen name="px_13">6.5dip</dimen>
+    <dimen name="px_130">65.0dip</dimen>
+    <dimen name="px_131">65.5dip</dimen>
+    <dimen name="px_132">66.0dip</dimen>
+    <dimen name="px_133">66.5dip</dimen>
+    <dimen name="px_134">67.0dip</dimen>
+    <dimen name="px_135">67.5dip</dimen>
+    <dimen name="px_136">68.0dip</dimen>
+    <dimen name="px_137">68.5dip</dimen>
+    <dimen name="px_138">69.0dip</dimen>
+    <dimen name="px_139">69.5dip</dimen>
+    <dimen name="px_14">7.0dip</dimen>
+    <dimen name="px_140">70.0dip</dimen>
+    <dimen name="px_141">70.5dip</dimen>
+    <dimen name="px_142">71.0dip</dimen>
+    <dimen name="px_143">71.5dip</dimen>
+    <dimen name="px_144">72.0dip</dimen>
+    <dimen name="px_145">72.5dip</dimen>
+    <dimen name="px_146">73.0dip</dimen>
+    <dimen name="px_147">73.5dip</dimen>
+    <dimen name="px_148">74.0dip</dimen>
+    <dimen name="px_149">74.5dip</dimen>
+    <dimen name="px_15">7.5dip</dimen>
+    <dimen name="px_150">75.0dip</dimen>
+    <dimen name="px_151">75.5dip</dimen>
+    <dimen name="px_152">76.0dip</dimen>
+    <dimen name="px_153">76.5dip</dimen>
+    <dimen name="px_154">77.0dip</dimen>
+    <dimen name="px_155">77.5dip</dimen>
+    <dimen name="px_156">78.0dip</dimen>
+    <dimen name="px_157">78.5dip</dimen>
+    <dimen name="px_158">79.0dip</dimen>
+    <dimen name="px_159">79.5dip</dimen>
+    <dimen name="px_16">8.0dip</dimen>
+    <dimen name="px_160">80.0dip</dimen>
+    <dimen name="px_161">80.5dip</dimen>
+    <dimen name="px_162">81.0dip</dimen>
+    <dimen name="px_163">81.5dip</dimen>
+    <dimen name="px_164">82.0dip</dimen>
+    <dimen name="px_165">82.5dip</dimen>
+    <dimen name="px_166">83.0dip</dimen>
+    <dimen name="px_167">83.5dip</dimen>
+    <dimen name="px_168">84.0dip</dimen>
+    <dimen name="px_169">84.5dip</dimen>
+    <dimen name="px_17">8.5dip</dimen>
+    <dimen name="px_170">85.0dip</dimen>
+    <dimen name="px_171">85.5dip</dimen>
+    <dimen name="px_172">86.0dip</dimen>
+    <dimen name="px_173">86.5dip</dimen>
+    <dimen name="px_174">87.0dip</dimen>
+    <dimen name="px_175">87.5dip</dimen>
+    <dimen name="px_176">88.0dip</dimen>
+    <dimen name="px_177">88.5dip</dimen>
+    <dimen name="px_178">89.0dip</dimen>
+    <dimen name="px_179">89.5dip</dimen>
+    <dimen name="px_18">9.0dip</dimen>
+    <dimen name="px_180">90.0dip</dimen>
+    <dimen name="px_181">90.5dip</dimen>
+    <dimen name="px_182">91.0dip</dimen>
+    <dimen name="px_183">91.5dip</dimen>
+    <dimen name="px_184">92.0dip</dimen>
+    <dimen name="px_185">92.5dip</dimen>
+    <dimen name="px_186">93.0dip</dimen>
+    <dimen name="px_187">93.5dip</dimen>
+    <dimen name="px_188">94.0dip</dimen>
+    <dimen name="px_189">94.5dip</dimen>
+    <dimen name="px_19">9.5dip</dimen>
+    <dimen name="px_190">95.0dip</dimen>
+    <dimen name="px_191">95.5dip</dimen>
+    <dimen name="px_192">96.0dip</dimen>
+    <dimen name="px_193">96.5dip</dimen>
+    <dimen name="px_194">97.0dip</dimen>
+    <dimen name="px_195">97.5dip</dimen>
+    <dimen name="px_196">98.0dip</dimen>
+    <dimen name="px_197">98.5dip</dimen>
+    <dimen name="px_198">99.0dip</dimen>
+    <dimen name="px_199">99.5dip</dimen>
+    <dimen name="px_2">1.0dip</dimen>
+    <dimen name="px_20">10.0dip</dimen>
+    <dimen name="px_200">100.0dip</dimen>
+    <dimen name="px_201">100.5dip</dimen>
+    <dimen name="px_202">101.0dip</dimen>
+    <dimen name="px_203">101.5dip</dimen>
+    <dimen name="px_204">102.0dip</dimen>
+    <dimen name="px_205">102.5dip</dimen>
+    <dimen name="px_206">103.0dip</dimen>
+    <dimen name="px_207">103.5dip</dimen>
+    <dimen name="px_208">104.0dip</dimen>
+    <dimen name="px_209">104.5dip</dimen>
+    <dimen name="px_21">10.5dip</dimen>
+    <dimen name="px_210">105.0dip</dimen>
+    <dimen name="px_211">105.5dip</dimen>
+    <dimen name="px_212">106.0dip</dimen>
+    <dimen name="px_213">106.5dip</dimen>
+    <dimen name="px_214">107.0dip</dimen>
+    <dimen name="px_215">107.5dip</dimen>
+    <dimen name="px_216">108.0dip</dimen>
+    <dimen name="px_217">108.5dip</dimen>
+    <dimen name="px_218">109.0dip</dimen>
+    <dimen name="px_219">109.5dip</dimen>
+    <dimen name="px_22">11.0dip</dimen>
+    <dimen name="px_220">110.0dip</dimen>
+    <dimen name="px_221">110.5dip</dimen>
+    <dimen name="px_222">111.0dip</dimen>
+    <dimen name="px_223">111.5dip</dimen>
+    <dimen name="px_224">112.0dip</dimen>
+    <dimen name="px_225">112.5dip</dimen>
+    <dimen name="px_226">113.0dip</dimen>
+    <dimen name="px_227">113.5dip</dimen>
+    <dimen name="px_228">114.0dip</dimen>
+    <dimen name="px_229">114.5dip</dimen>
+    <dimen name="px_23">11.5dip</dimen>
+    <dimen name="px_230">115.0dip</dimen>
+    <dimen name="px_231">115.5dip</dimen>
+    <dimen name="px_232">116.0dip</dimen>
+    <dimen name="px_233">116.5dip</dimen>
+    <dimen name="px_234">117.0dip</dimen>
+    <dimen name="px_235">117.5dip</dimen>
+    <dimen name="px_236">118.0dip</dimen>
+    <dimen name="px_237">118.5dip</dimen>
+    <dimen name="px_238">119.0dip</dimen>
+    <dimen name="px_239">119.5dip</dimen>
+    <dimen name="px_24">12.0dip</dimen>
+    <dimen name="px_240">120.0dip</dimen>
+    <dimen name="px_241">120.5dip</dimen>
+    <dimen name="px_242">121.0dip</dimen>
+    <dimen name="px_243">121.5dip</dimen>
+    <dimen name="px_244">122.0dip</dimen>
+    <dimen name="px_245">122.5dip</dimen>
+    <dimen name="px_246">123.0dip</dimen>
+    <dimen name="px_247">123.5dip</dimen>
+    <dimen name="px_248">124.0dip</dimen>
+    <dimen name="px_249">124.5dip</dimen>
+    <dimen name="px_25">12.5dip</dimen>
+    <dimen name="px_250">125.0dip</dimen>
+    <dimen name="px_251">125.5dip</dimen>
+    <dimen name="px_252">126.0dip</dimen>
+    <dimen name="px_253">126.5dip</dimen>
+    <dimen name="px_254">127.0dip</dimen>
+    <dimen name="px_255">127.5dip</dimen>
+    <dimen name="px_256">128.0dip</dimen>
+    <dimen name="px_257">128.5dip</dimen>
+    <dimen name="px_258">129.0dip</dimen>
+    <dimen name="px_259">129.5dip</dimen>
+    <dimen name="px_26">13.0dip</dimen>
+    <dimen name="px_260">130.0dip</dimen>
+    <dimen name="px_261">130.5dip</dimen>
+    <dimen name="px_262">131.0dip</dimen>
+    <dimen name="px_263">131.5dip</dimen>
+    <dimen name="px_264">132.0dip</dimen>
+    <dimen name="px_265">132.5dip</dimen>
+    <dimen name="px_266">133.0dip</dimen>
+    <dimen name="px_267">133.5dip</dimen>
+    <dimen name="px_268">134.0dip</dimen>
+    <dimen name="px_269">134.5dip</dimen>
+    <dimen name="px_27">13.5dip</dimen>
+    <dimen name="px_270">135.0dip</dimen>
+    <dimen name="px_271">135.5dip</dimen>
+    <dimen name="px_272">136.0dip</dimen>
+    <dimen name="px_273">136.5dip</dimen>
+    <dimen name="px_274">137.0dip</dimen>
+    <dimen name="px_275">137.5dip</dimen>
+    <dimen name="px_276">138.0dip</dimen>
+    <dimen name="px_277">138.5dip</dimen>
+    <dimen name="px_278">139.0dip</dimen>
+    <dimen name="px_279">139.5dip</dimen>
+    <dimen name="px_28">14.0dip</dimen>
+    <dimen name="px_280">140.0dip</dimen>
+    <dimen name="px_281">140.5dip</dimen>
+    <dimen name="px_282">141.0dip</dimen>
+    <dimen name="px_283">141.5dip</dimen>
+    <dimen name="px_284">142.0dip</dimen>
+    <dimen name="px_285">142.5dip</dimen>
+    <dimen name="px_286">143.0dip</dimen>
+    <dimen name="px_287">143.5dip</dimen>
+    <dimen name="px_288">144.0dip</dimen>
+    <dimen name="px_289">144.5dip</dimen>
+    <dimen name="px_29">14.5dip</dimen>
+    <dimen name="px_290">145.0dip</dimen>
+    <dimen name="px_291">145.5dip</dimen>
+    <dimen name="px_292">146.0dip</dimen>
+    <dimen name="px_293">146.5dip</dimen>
+    <dimen name="px_294">147.0dip</dimen>
+    <dimen name="px_295">147.5dip</dimen>
+    <dimen name="px_296">148.0dip</dimen>
+    <dimen name="px_297">148.5dip</dimen>
+    <dimen name="px_298">149.0dip</dimen>
+    <dimen name="px_299">149.5dip</dimen>
+    <dimen name="px_3">1.5dip</dimen>
+    <dimen name="px_30">15.0dip</dimen>
+    <dimen name="px_300">150.0dip</dimen>
+    <dimen name="px_301">150.5dip</dimen>
+    <dimen name="px_302">151.0dip</dimen>
+    <dimen name="px_303">151.5dip</dimen>
+    <dimen name="px_304">152.0dip</dimen>
+    <dimen name="px_305">152.5dip</dimen>
+    <dimen name="px_306">153.0dip</dimen>
+    <dimen name="px_307">153.5dip</dimen>
+    <dimen name="px_308">154.0dip</dimen>
+    <dimen name="px_309">154.5dip</dimen>
+    <dimen name="px_31">15.5dip</dimen>
+    <dimen name="px_310">155.0dip</dimen>
+    <dimen name="px_311">155.5dip</dimen>
+    <dimen name="px_312">156.0dip</dimen>
+    <dimen name="px_313">156.5dip</dimen>
+    <dimen name="px_314">157.0dip</dimen>
+    <dimen name="px_315">157.5dip</dimen>
+    <dimen name="px_316">158.0dip</dimen>
+    <dimen name="px_317">158.5dip</dimen>
+    <dimen name="px_318">159.0dip</dimen>
+    <dimen name="px_319">159.5dip</dimen>
+    <dimen name="px_32">16.0dip</dimen>
+    <dimen name="px_320">160.0dip</dimen>
+    <dimen name="px_321">160.5dip</dimen>
+    <dimen name="px_322">161.0dip</dimen>
+    <dimen name="px_323">161.5dip</dimen>
+    <dimen name="px_324">162.0dip</dimen>
+    <dimen name="px_325">162.5dip</dimen>
+    <dimen name="px_326">163.0dip</dimen>
+    <dimen name="px_327">163.5dip</dimen>
+    <dimen name="px_328">164.0dip</dimen>
+    <dimen name="px_329">164.5dip</dimen>
+    <dimen name="px_33">16.5dip</dimen>
+    <dimen name="px_330">165.0dip</dimen>
+    <dimen name="px_331">165.5dip</dimen>
+    <dimen name="px_332">166.0dip</dimen>
+    <dimen name="px_333">166.5dip</dimen>
+    <dimen name="px_334">167.0dip</dimen>
+    <dimen name="px_335">167.5dip</dimen>
+    <dimen name="px_336">168.0dip</dimen>
+    <dimen name="px_337">168.5dip</dimen>
+    <dimen name="px_338">169.0dip</dimen>
+    <dimen name="px_339">169.5dip</dimen>
+    <dimen name="px_34">17.0dip</dimen>
+    <dimen name="px_340">170.0dip</dimen>
+    <dimen name="px_341">170.5dip</dimen>
+    <dimen name="px_342">171.0dip</dimen>
+    <dimen name="px_343">171.5dip</dimen>
+    <dimen name="px_344">172.0dip</dimen>
+    <dimen name="px_345">172.5dip</dimen>
+    <dimen name="px_346">173.0dip</dimen>
+    <dimen name="px_347">173.5dip</dimen>
+    <dimen name="px_348">174.0dip</dimen>
+    <dimen name="px_349">174.5dip</dimen>
+    <dimen name="px_35">17.5dip</dimen>
+    <dimen name="px_350">175.0dip</dimen>
+    <dimen name="px_351">175.5dip</dimen>
+    <dimen name="px_352">176.0dip</dimen>
+    <dimen name="px_353">176.5dip</dimen>
+    <dimen name="px_354">177.0dip</dimen>
+    <dimen name="px_355">177.5dip</dimen>
+    <dimen name="px_356">178.0dip</dimen>
+    <dimen name="px_357">178.5dip</dimen>
+    <dimen name="px_358">179.0dip</dimen>
+    <dimen name="px_359">179.5dip</dimen>
+    <dimen name="px_36">18.0dip</dimen>
+    <dimen name="px_360">180.0dip</dimen>
+    <dimen name="px_361">180.5dip</dimen>
+    <dimen name="px_362">181.0dip</dimen>
+    <dimen name="px_363">181.5dip</dimen>
+    <dimen name="px_364">182.0dip</dimen>
+    <dimen name="px_365">182.5dip</dimen>
+    <dimen name="px_366">183.0dip</dimen>
+    <dimen name="px_367">183.5dip</dimen>
+    <dimen name="px_368">184.0dip</dimen>
+    <dimen name="px_369">184.5dip</dimen>
+    <dimen name="px_37">18.5dip</dimen>
+    <dimen name="px_370">185.0dip</dimen>
+    <dimen name="px_371">185.5dip</dimen>
+    <dimen name="px_372">186.0dip</dimen>
+    <dimen name="px_373">186.5dip</dimen>
+    <dimen name="px_374">187.0dip</dimen>
+    <dimen name="px_375">187.5dip</dimen>
+    <dimen name="px_376">188.0dip</dimen>
+    <dimen name="px_377">188.5dip</dimen>
+    <dimen name="px_378">189.0dip</dimen>
+    <dimen name="px_379">189.5dip</dimen>
+    <dimen name="px_38">19.0dip</dimen>
+    <dimen name="px_380">190.0dip</dimen>
+    <dimen name="px_381">190.5dip</dimen>
+    <dimen name="px_382">191.0dip</dimen>
+    <dimen name="px_383">191.5dip</dimen>
+    <dimen name="px_384">192.0dip</dimen>
+    <dimen name="px_385">192.5dip</dimen>
+    <dimen name="px_386">193.0dip</dimen>
+    <dimen name="px_387">193.5dip</dimen>
+    <dimen name="px_388">194.0dip</dimen>
+    <dimen name="px_389">194.5dip</dimen>
+    <dimen name="px_39">19.5dip</dimen>
+    <dimen name="px_390">195.0dip</dimen>
+    <dimen name="px_391">195.5dip</dimen>
+    <dimen name="px_392">196.0dip</dimen>
+    <dimen name="px_393">196.5dip</dimen>
+    <dimen name="px_394">197.0dip</dimen>
+    <dimen name="px_395">197.5dip</dimen>
+    <dimen name="px_396">198.0dip</dimen>
+    <dimen name="px_397">198.5dip</dimen>
+    <dimen name="px_398">199.0dip</dimen>
+    <dimen name="px_399">199.5dip</dimen>
+    <dimen name="px_4">2.0dip</dimen>
+    <dimen name="px_40">20.0dip</dimen>
+    <dimen name="px_400">200.0dip</dimen>
+    <dimen name="px_401">200.5dip</dimen>
+    <dimen name="px_402">201.0dip</dimen>
+    <dimen name="px_403">201.5dip</dimen>
+    <dimen name="px_404">202.0dip</dimen>
+    <dimen name="px_405">202.5dip</dimen>
+    <dimen name="px_406">203.0dip</dimen>
+    <dimen name="px_407">203.5dip</dimen>
+    <dimen name="px_408">204.0dip</dimen>
+    <dimen name="px_409">204.5dip</dimen>
+    <dimen name="px_41">20.5dip</dimen>
+    <dimen name="px_410">205.0dip</dimen>
+    <dimen name="px_411">205.5dip</dimen>
+    <dimen name="px_412">206.0dip</dimen>
+    <dimen name="px_413">206.5dip</dimen>
+    <dimen name="px_414">207.0dip</dimen>
+    <dimen name="px_415">207.5dip</dimen>
+    <dimen name="px_416">208.0dip</dimen>
+    <dimen name="px_417">208.5dip</dimen>
+    <dimen name="px_418">209.0dip</dimen>
+    <dimen name="px_419">209.5dip</dimen>
+    <dimen name="px_42">21.0dip</dimen>
+    <dimen name="px_420">210.0dip</dimen>
+    <dimen name="px_421">210.5dip</dimen>
+    <dimen name="px_422">211.0dip</dimen>
+    <dimen name="px_423">211.5dip</dimen>
+    <dimen name="px_424">212.0dip</dimen>
+    <dimen name="px_425">212.5dip</dimen>
+    <dimen name="px_426">213.0dip</dimen>
+    <dimen name="px_427">213.5dip</dimen>
+    <dimen name="px_428">214.0dip</dimen>
+    <dimen name="px_429">214.5dip</dimen>
+    <dimen name="px_43">21.5dip</dimen>
+    <dimen name="px_430">215.0dip</dimen>
+    <dimen name="px_431">215.5dip</dimen>
+    <dimen name="px_432">216.0dip</dimen>
+    <dimen name="px_433">216.5dip</dimen>
+    <dimen name="px_434">217.0dip</dimen>
+    <dimen name="px_435">217.5dip</dimen>
+    <dimen name="px_436">218.0dip</dimen>
+    <dimen name="px_437">218.5dip</dimen>
+    <dimen name="px_438">219.0dip</dimen>
+    <dimen name="px_439">219.5dip</dimen>
+    <dimen name="px_44">22.0dip</dimen>
+    <dimen name="px_440">220.0dip</dimen>
+    <dimen name="px_441">220.5dip</dimen>
+    <dimen name="px_442">221.0dip</dimen>
+    <dimen name="px_443">221.5dip</dimen>
+    <dimen name="px_444">222.0dip</dimen>
+    <dimen name="px_445">222.5dip</dimen>
+    <dimen name="px_446">223.0dip</dimen>
+    <dimen name="px_447">223.5dip</dimen>
+    <dimen name="px_448">224.0dip</dimen>
+    <dimen name="px_449">224.5dip</dimen>
+    <dimen name="px_45">22.5dip</dimen>
+    <dimen name="px_450">225.0dip</dimen>
+    <dimen name="px_451">225.5dip</dimen>
+    <dimen name="px_452">226.0dip</dimen>
+    <dimen name="px_453">226.5dip</dimen>
+    <dimen name="px_454">227.0dip</dimen>
+    <dimen name="px_455">227.5dip</dimen>
+    <dimen name="px_456">228.0dip</dimen>
+    <dimen name="px_457">228.5dip</dimen>
+    <dimen name="px_458">229.0dip</dimen>
+    <dimen name="px_459">229.5dip</dimen>
+    <dimen name="px_46">23.0dip</dimen>
+    <dimen name="px_460">230.0dip</dimen>
+    <dimen name="px_461">230.5dip</dimen>
+    <dimen name="px_462">231.0dip</dimen>
+    <dimen name="px_463">231.5dip</dimen>
+    <dimen name="px_464">232.0dip</dimen>
+    <dimen name="px_465">232.5dip</dimen>
+    <dimen name="px_466">233.0dip</dimen>
+    <dimen name="px_467">233.5dip</dimen>
+    <dimen name="px_468">234.0dip</dimen>
+    <dimen name="px_469">234.5dip</dimen>
+    <dimen name="px_47">23.5dip</dimen>
+    <dimen name="px_470">235.0dip</dimen>
+    <dimen name="px_471">235.5dip</dimen>
+    <dimen name="px_472">236.0dip</dimen>
+    <dimen name="px_473">236.5dip</dimen>
+    <dimen name="px_474">237.0dip</dimen>
+    <dimen name="px_475">237.5dip</dimen>
+    <dimen name="px_476">238.0dip</dimen>
+    <dimen name="px_477">238.5dip</dimen>
+    <dimen name="px_478">239.0dip</dimen>
+    <dimen name="px_479">239.5dip</dimen>
+    <dimen name="px_48">24.0dip</dimen>
+    <dimen name="px_480">240.0dip</dimen>
+    <dimen name="px_481">240.5dip</dimen>
+    <dimen name="px_482">241.0dip</dimen>
+    <dimen name="px_483">241.5dip</dimen>
+    <dimen name="px_484">242.0dip</dimen>
+    <dimen name="px_485">242.5dip</dimen>
+    <dimen name="px_486">243.0dip</dimen>
+    <dimen name="px_487">243.5dip</dimen>
+    <dimen name="px_488">244.0dip</dimen>
+    <dimen name="px_489">244.5dip</dimen>
+    <dimen name="px_49">24.5dip</dimen>
+    <dimen name="px_490">245.0dip</dimen>
+    <dimen name="px_491">245.5dip</dimen>
+    <dimen name="px_492">246.0dip</dimen>
+    <dimen name="px_493">246.5dip</dimen>
+    <dimen name="px_494">247.0dip</dimen>
+    <dimen name="px_495">247.5dip</dimen>
+    <dimen name="px_496">248.0dip</dimen>
+    <dimen name="px_497">248.5dip</dimen>
+    <dimen name="px_498">249.0dip</dimen>
+    <dimen name="px_499">249.5dip</dimen>
+    <dimen name="px_5">2.5dip</dimen>
+    <dimen name="px_50">25.0dip</dimen>
+    <dimen name="px_500">250.0dip</dimen>
+    <dimen name="px_501">250.5dip</dimen>
+    <dimen name="px_502">251.0dip</dimen>
+    <dimen name="px_503">251.5dip</dimen>
+    <dimen name="px_504">252.0dip</dimen>
+    <dimen name="px_505">252.5dip</dimen>
+    <dimen name="px_506">253.0dip</dimen>
+    <dimen name="px_507">253.5dip</dimen>
+    <dimen name="px_508">254.0dip</dimen>
+    <dimen name="px_509">254.5dip</dimen>
+    <dimen name="px_51">25.5dip</dimen>
+    <dimen name="px_510">255.0dip</dimen>
+    <dimen name="px_511">255.5dip</dimen>
+    <dimen name="px_512">256.0dip</dimen>
+    <dimen name="px_513">256.5dip</dimen>
+    <dimen name="px_514">257.0dip</dimen>
+    <dimen name="px_515">257.5dip</dimen>
+    <dimen name="px_516">258.0dip</dimen>
+    <dimen name="px_517">258.5dip</dimen>
+    <dimen name="px_518">259.0dip</dimen>
+    <dimen name="px_519">259.5dip</dimen>
+    <dimen name="px_52">26.0dip</dimen>
+    <dimen name="px_520">260.0dip</dimen>
+    <dimen name="px_521">260.5dip</dimen>
+    <dimen name="px_522">261.0dip</dimen>
+    <dimen name="px_523">261.5dip</dimen>
+    <dimen name="px_524">262.0dip</dimen>
+    <dimen name="px_525">262.5dip</dimen>
+    <dimen name="px_526">263.0dip</dimen>
+    <dimen name="px_527">263.5dip</dimen>
+    <dimen name="px_528">264.0dip</dimen>
+    <dimen name="px_529">264.5dip</dimen>
+    <dimen name="px_53">26.5dip</dimen>
+    <dimen name="px_530">265.0dip</dimen>
+    <dimen name="px_531">265.5dip</dimen>
+    <dimen name="px_532">266.0dip</dimen>
+    <dimen name="px_533">266.5dip</dimen>
+    <dimen name="px_534">267.0dip</dimen>
+    <dimen name="px_535">267.5dip</dimen>
+    <dimen name="px_536">268.0dip</dimen>
+    <dimen name="px_537">268.5dip</dimen>
+    <dimen name="px_538">269.0dip</dimen>
+    <dimen name="px_539">269.5dip</dimen>
+    <dimen name="px_54">27.0dip</dimen>
+    <dimen name="px_540">270.0dip</dimen>
+    <dimen name="px_541">270.5dip</dimen>
+    <dimen name="px_542">271.0dip</dimen>
+    <dimen name="px_543">271.5dip</dimen>
+    <dimen name="px_544">272.0dip</dimen>
+    <dimen name="px_545">272.5dip</dimen>
+    <dimen name="px_546">273.0dip</dimen>
+    <dimen name="px_547">273.5dip</dimen>
+    <dimen name="px_548">274.0dip</dimen>
+    <dimen name="px_549">274.5dip</dimen>
+    <dimen name="px_55">27.5dip</dimen>
+    <dimen name="px_550">275.0dip</dimen>
+    <dimen name="px_551">275.5dip</dimen>
+    <dimen name="px_552">276.0dip</dimen>
+    <dimen name="px_553">276.5dip</dimen>
+    <dimen name="px_554">277.0dip</dimen>
+    <dimen name="px_555">277.5dip</dimen>
+    <dimen name="px_556">278.0dip</dimen>
+    <dimen name="px_557">278.5dip</dimen>
+    <dimen name="px_558">279.0dip</dimen>
+    <dimen name="px_559">279.5dip</dimen>
+    <dimen name="px_56">28.0dip</dimen>
+    <dimen name="px_560">280.0dip</dimen>
+    <dimen name="px_561">280.5dip</dimen>
+    <dimen name="px_562">281.0dip</dimen>
+    <dimen name="px_563">281.5dip</dimen>
+    <dimen name="px_564">282.0dip</dimen>
+    <dimen name="px_565">282.5dip</dimen>
+    <dimen name="px_566">283.0dip</dimen>
+    <dimen name="px_567">283.5dip</dimen>
+    <dimen name="px_568">284.0dip</dimen>
+    <dimen name="px_569">284.5dip</dimen>
+    <dimen name="px_57">28.5dip</dimen>
+    <dimen name="px_570">285.0dip</dimen>
+    <dimen name="px_571">285.5dip</dimen>
+    <dimen name="px_572">286.0dip</dimen>
+    <dimen name="px_573">286.5dip</dimen>
+    <dimen name="px_574">287.0dip</dimen>
+    <dimen name="px_575">287.5dip</dimen>
+    <dimen name="px_576">288.0dip</dimen>
+    <dimen name="px_577">288.5dip</dimen>
+    <dimen name="px_578">289.0dip</dimen>
+    <dimen name="px_579">289.5dip</dimen>
+    <dimen name="px_58">29.0dip</dimen>
+    <dimen name="px_580">290.0dip</dimen>
+    <dimen name="px_581">290.5dip</dimen>
+    <dimen name="px_582">291.0dip</dimen>
+    <dimen name="px_583">291.5dip</dimen>
+    <dimen name="px_584">292.0dip</dimen>
+    <dimen name="px_585">292.5dip</dimen>
+    <dimen name="px_586">293.0dip</dimen>
+    <dimen name="px_587">293.5dip</dimen>
+    <dimen name="px_588">294.0dip</dimen>
+    <dimen name="px_589">294.5dip</dimen>
+    <dimen name="px_59">29.5dip</dimen>
+    <dimen name="px_590">295.0dip</dimen>
+    <dimen name="px_591">295.5dip</dimen>
+    <dimen name="px_592">296.0dip</dimen>
+    <dimen name="px_593">296.5dip</dimen>
+    <dimen name="px_594">297.0dip</dimen>
+    <dimen name="px_595">297.5dip</dimen>
+    <dimen name="px_596">298.0dip</dimen>
+    <dimen name="px_597">298.5dip</dimen>
+    <dimen name="px_598">299.0dip</dimen>
+    <dimen name="px_599">299.5dip</dimen>
+    <dimen name="px_6">3.0dip</dimen>
+    <dimen name="px_60">30.0dip</dimen>
+    <dimen name="px_600">300.0dip</dimen>
+    <dimen name="px_601">300.5dip</dimen>
+    <dimen name="px_602">301.0dip</dimen>
+    <dimen name="px_603">301.5dip</dimen>
+    <dimen name="px_604">302.0dip</dimen>
+    <dimen name="px_605">302.5dip</dimen>
+    <dimen name="px_606">303.0dip</dimen>
+    <dimen name="px_607">303.5dip</dimen>
+    <dimen name="px_608">304.0dip</dimen>
+    <dimen name="px_609">304.5dip</dimen>
+    <dimen name="px_61">30.5dip</dimen>
+    <dimen name="px_610">305.0dip</dimen>
+    <dimen name="px_611">305.5dip</dimen>
+    <dimen name="px_612">306.0dip</dimen>
+    <dimen name="px_613">306.5dip</dimen>
+    <dimen name="px_614">307.0dip</dimen>
+    <dimen name="px_615">307.5dip</dimen>
+    <dimen name="px_616">308.0dip</dimen>
+    <dimen name="px_617">308.5dip</dimen>
+    <dimen name="px_618">309.0dip</dimen>
+    <dimen name="px_619">309.5dip</dimen>
+    <dimen name="px_62">31.0dip</dimen>
+    <dimen name="px_620">310.0dip</dimen>
+    <dimen name="px_621">310.5dip</dimen>
+    <dimen name="px_622">311.0dip</dimen>
+    <dimen name="px_623">311.5dip</dimen>
+    <dimen name="px_624">312.0dip</dimen>
+    <dimen name="px_625">312.5dip</dimen>
+    <dimen name="px_626">313.0dip</dimen>
+    <dimen name="px_627">313.5dip</dimen>
+    <dimen name="px_628">314.0dip</dimen>
+    <dimen name="px_629">314.5dip</dimen>
+    <dimen name="px_63">31.5dip</dimen>
+    <dimen name="px_630">315.0dip</dimen>
+    <dimen name="px_631">315.5dip</dimen>
+    <dimen name="px_632">316.0dip</dimen>
+    <dimen name="px_633">316.5dip</dimen>
+    <dimen name="px_634">317.0dip</dimen>
+    <dimen name="px_635">317.5dip</dimen>
+    <dimen name="px_636">318.0dip</dimen>
+    <dimen name="px_637">318.5dip</dimen>
+    <dimen name="px_638">319.0dip</dimen>
+    <dimen name="px_639">319.5dip</dimen>
+    <dimen name="px_64">32.0dip</dimen>
+    <dimen name="px_640">320.0dip</dimen>
+    <dimen name="px_641">320.5dip</dimen>
+    <dimen name="px_642">321.0dip</dimen>
+    <dimen name="px_643">321.5dip</dimen>
+    <dimen name="px_644">322.0dip</dimen>
+    <dimen name="px_645">322.5dip</dimen>
+    <dimen name="px_646">323.0dip</dimen>
+    <dimen name="px_647">323.5dip</dimen>
+    <dimen name="px_648">324.0dip</dimen>
+    <dimen name="px_649">324.5dip</dimen>
+    <dimen name="px_65">32.5dip</dimen>
+    <dimen name="px_650">325.0dip</dimen>
+    <dimen name="px_651">325.5dip</dimen>
+    <dimen name="px_652">326.0dip</dimen>
+    <dimen name="px_653">326.5dip</dimen>
+    <dimen name="px_654">327.0dip</dimen>
+    <dimen name="px_655">327.5dip</dimen>
+    <dimen name="px_656">328.0dip</dimen>
+    <dimen name="px_657">328.5dip</dimen>
+    <dimen name="px_658">329.0dip</dimen>
+    <dimen name="px_659">329.5dip</dimen>
+    <dimen name="px_66">33.0dip</dimen>
+    <dimen name="px_660">330.0dip</dimen>
+    <dimen name="px_661">330.5dip</dimen>
+    <dimen name="px_662">331.0dip</dimen>
+    <dimen name="px_663">331.5dip</dimen>
+    <dimen name="px_664">332.0dip</dimen>
+    <dimen name="px_665">332.5dip</dimen>
+    <dimen name="px_666">333.0dip</dimen>
+    <dimen name="px_667">333.5dip</dimen>
+    <dimen name="px_668">334.0dip</dimen>
+    <dimen name="px_669">334.5dip</dimen>
+    <dimen name="px_67">33.5dip</dimen>
+    <dimen name="px_670">335.0dip</dimen>
+    <dimen name="px_671">335.5dip</dimen>
+    <dimen name="px_672">336.0dip</dimen>
+    <dimen name="px_673">336.5dip</dimen>
+    <dimen name="px_674">337.0dip</dimen>
+    <dimen name="px_675">337.5dip</dimen>
+    <dimen name="px_676">338.0dip</dimen>
+    <dimen name="px_677">338.5dip</dimen>
+    <dimen name="px_678">339.0dip</dimen>
+    <dimen name="px_679">339.5dip</dimen>
+    <dimen name="px_68">34.0dip</dimen>
+    <dimen name="px_680">340.0dip</dimen>
+    <dimen name="px_681">340.5dip</dimen>
+    <dimen name="px_682">341.0dip</dimen>
+    <dimen name="px_683">341.5dip</dimen>
+    <dimen name="px_684">342.0dip</dimen>
+    <dimen name="px_685">342.5dip</dimen>
+    <dimen name="px_686">343.0dip</dimen>
+    <dimen name="px_687">343.5dip</dimen>
+    <dimen name="px_688">344.0dip</dimen>
+    <dimen name="px_689">344.5dip</dimen>
+    <dimen name="px_69">34.5dip</dimen>
+    <dimen name="px_690">345.0dip</dimen>
+    <dimen name="px_691">345.5dip</dimen>
+    <dimen name="px_692">346.0dip</dimen>
+    <dimen name="px_693">346.5dip</dimen>
+    <dimen name="px_694">347.0dip</dimen>
+    <dimen name="px_695">347.5dip</dimen>
+    <dimen name="px_696">348.0dip</dimen>
+    <dimen name="px_697">348.5dip</dimen>
+    <dimen name="px_698">349.0dip</dimen>
+    <dimen name="px_699">349.5dip</dimen>
+    <dimen name="px_7">3.5dip</dimen>
+    <dimen name="px_70">35.0dip</dimen>
+    <dimen name="px_700">350.0dip</dimen>
+    <dimen name="px_701">350.5dip</dimen>
+    <dimen name="px_702">351.0dip</dimen>
+    <dimen name="px_703">351.5dip</dimen>
+    <dimen name="px_704">352.0dip</dimen>
+    <dimen name="px_705">352.5dip</dimen>
+    <dimen name="px_706">353.0dip</dimen>
+    <dimen name="px_707">353.5dip</dimen>
+    <dimen name="px_708">354.0dip</dimen>
+    <dimen name="px_709">354.5dip</dimen>
+    <dimen name="px_71">35.5dip</dimen>
+    <dimen name="px_710">355.0dip</dimen>
+    <dimen name="px_711">355.5dip</dimen>
+    <dimen name="px_712">356.0dip</dimen>
+    <dimen name="px_713">356.5dip</dimen>
+    <dimen name="px_714">357.0dip</dimen>
+    <dimen name="px_715">357.5dip</dimen>
+    <dimen name="px_716">358.0dip</dimen>
+    <dimen name="px_717">358.5dip</dimen>
+    <dimen name="px_718">359.0dip</dimen>
+    <dimen name="px_719">359.5dip</dimen>
+    <dimen name="px_72">36.0dip</dimen>
+    <dimen name="px_720">360.0dip</dimen>
+    <dimen name="px_721">360.5dip</dimen>
+    <dimen name="px_722">361.0dip</dimen>
+    <dimen name="px_723">361.5dip</dimen>
+    <dimen name="px_724">362.0dip</dimen>
+    <dimen name="px_725">362.5dip</dimen>
+    <dimen name="px_726">363.0dip</dimen>
+    <dimen name="px_727">363.5dip</dimen>
+    <dimen name="px_728">364.0dip</dimen>
+    <dimen name="px_729">364.5dip</dimen>
+    <dimen name="px_73">36.5dip</dimen>
+    <dimen name="px_730">365.0dip</dimen>
+    <dimen name="px_731">365.5dip</dimen>
+    <dimen name="px_732">366.0dip</dimen>
+    <dimen name="px_733">366.5dip</dimen>
+    <dimen name="px_734">367.0dip</dimen>
+    <dimen name="px_735">367.5dip</dimen>
+    <dimen name="px_736">368.0dip</dimen>
+    <dimen name="px_737">368.5dip</dimen>
+    <dimen name="px_738">369.0dip</dimen>
+    <dimen name="px_739">369.5dip</dimen>
+    <dimen name="px_74">37.0dip</dimen>
+    <dimen name="px_740">370.0dip</dimen>
+    <dimen name="px_741">370.5dip</dimen>
+    <dimen name="px_742">371.0dip</dimen>
+    <dimen name="px_743">371.5dip</dimen>
+    <dimen name="px_744">372.0dip</dimen>
+    <dimen name="px_745">372.5dip</dimen>
+    <dimen name="px_746">373.0dip</dimen>
+    <dimen name="px_747">373.5dip</dimen>
+    <dimen name="px_748">374.0dip</dimen>
+    <dimen name="px_749">374.5dip</dimen>
+    <dimen name="px_75">37.5dip</dimen>
+    <dimen name="px_750">375.0dip</dimen>
+    <dimen name="px_751">375.5dip</dimen>
+    <dimen name="px_752">376.0dip</dimen>
+    <dimen name="px_753">376.5dip</dimen>
+    <dimen name="px_754">377.0dip</dimen>
+    <dimen name="px_755">377.5dip</dimen>
+    <dimen name="px_756">378.0dip</dimen>
+    <dimen name="px_757">378.5dip</dimen>
+    <dimen name="px_758">379.0dip</dimen>
+    <dimen name="px_759">379.5dip</dimen>
+    <dimen name="px_76">38.0dip</dimen>
+    <dimen name="px_760">380.0dip</dimen>
+    <dimen name="px_761">380.5dip</dimen>
+    <dimen name="px_762">381.0dip</dimen>
+    <dimen name="px_763">381.5dip</dimen>
+    <dimen name="px_764">382.0dip</dimen>
+    <dimen name="px_765">382.5dip</dimen>
+    <dimen name="px_766">383.0dip</dimen>
+    <dimen name="px_767">383.5dip</dimen>
+    <dimen name="px_768">384.0dip</dimen>
+    <dimen name="px_769">384.5dip</dimen>
+    <dimen name="px_77">38.5dip</dimen>
+    <dimen name="px_770">385.0dip</dimen>
+    <dimen name="px_771">385.5dip</dimen>
+    <dimen name="px_772">386.0dip</dimen>
+    <dimen name="px_773">386.5dip</dimen>
+    <dimen name="px_774">387.0dip</dimen>
+    <dimen name="px_775">387.5dip</dimen>
+    <dimen name="px_776">388.0dip</dimen>
+    <dimen name="px_777">388.5dip</dimen>
+    <dimen name="px_778">389.0dip</dimen>
+    <dimen name="px_779">389.5dip</dimen>
+    <dimen name="px_78">39.0dip</dimen>
+    <dimen name="px_780">390.0dip</dimen>
+    <dimen name="px_781">390.5dip</dimen>
+    <dimen name="px_782">391.0dip</dimen>
+    <dimen name="px_783">391.5dip</dimen>
+    <dimen name="px_784">392.0dip</dimen>
+    <dimen name="px_785">392.5dip</dimen>
+    <dimen name="px_786">393.0dip</dimen>
+    <dimen name="px_787">393.5dip</dimen>
+    <dimen name="px_788">394.0dip</dimen>
+    <dimen name="px_789">394.5dip</dimen>
+    <dimen name="px_79">39.5dip</dimen>
+    <dimen name="px_790">395.0dip</dimen>
+    <dimen name="px_791">395.5dip</dimen>
+    <dimen name="px_792">396.0dip</dimen>
+    <dimen name="px_793">396.5dip</dimen>
+    <dimen name="px_794">397.0dip</dimen>
+    <dimen name="px_795">397.5dip</dimen>
+    <dimen name="px_796">398.0dip</dimen>
+    <dimen name="px_797">398.5dip</dimen>
+    <dimen name="px_798">399.0dip</dimen>
+    <dimen name="px_799">399.5dip</dimen>
+    <dimen name="px_8">4.0dip</dimen>
+    <dimen name="px_80">40.0dip</dimen>
+    <dimen name="px_800">400.0dip</dimen>
+    <dimen name="px_801">400.5dip</dimen>
+    <dimen name="px_802">401.0dip</dimen>
+    <dimen name="px_803">401.5dip</dimen>
+    <dimen name="px_804">402.0dip</dimen>
+    <dimen name="px_805">402.5dip</dimen>
+    <dimen name="px_806">403.0dip</dimen>
+    <dimen name="px_807">403.5dip</dimen>
+    <dimen name="px_808">404.0dip</dimen>
+    <dimen name="px_809">404.5dip</dimen>
+    <dimen name="px_81">40.5dip</dimen>
+    <dimen name="px_810">405.0dip</dimen>
+    <dimen name="px_811">405.5dip</dimen>
+    <dimen name="px_812">406.0dip</dimen>
+    <dimen name="px_813">406.5dip</dimen>
+    <dimen name="px_814">407.0dip</dimen>
+    <dimen name="px_815">407.5dip</dimen>
+    <dimen name="px_816">408.0dip</dimen>
+    <dimen name="px_817">408.5dip</dimen>
+    <dimen name="px_818">409.0dip</dimen>
+    <dimen name="px_819">409.5dip</dimen>
+    <dimen name="px_82">41.0dip</dimen>
+    <dimen name="px_820">410.0dip</dimen>
+    <dimen name="px_821">410.5dip</dimen>
+    <dimen name="px_822">411.0dip</dimen>
+    <dimen name="px_823">411.5dip</dimen>
+    <dimen name="px_824">412.0dip</dimen>
+    <dimen name="px_825">412.5dip</dimen>
+    <dimen name="px_826">413.0dip</dimen>
+    <dimen name="px_827">413.5dip</dimen>
+    <dimen name="px_828">414.0dip</dimen>
+    <dimen name="px_829">414.5dip</dimen>
+    <dimen name="px_83">41.5dip</dimen>
+    <dimen name="px_830">415.0dip</dimen>
+    <dimen name="px_831">415.5dip</dimen>
+    <dimen name="px_832">416.0dip</dimen>
+    <dimen name="px_833">416.5dip</dimen>
+    <dimen name="px_834">417.0dip</dimen>
+    <dimen name="px_835">417.5dip</dimen>
+    <dimen name="px_836">418.0dip</dimen>
+    <dimen name="px_837">418.5dip</dimen>
+    <dimen name="px_838">419.0dip</dimen>
+    <dimen name="px_839">419.5dip</dimen>
+    <dimen name="px_84">42.0dip</dimen>
+    <dimen name="px_840">420.0dip</dimen>
+    <dimen name="px_841">420.5dip</dimen>
+    <dimen name="px_842">421.0dip</dimen>
+    <dimen name="px_843">421.5dip</dimen>
+    <dimen name="px_844">422.0dip</dimen>
+    <dimen name="px_845">422.5dip</dimen>
+    <dimen name="px_846">423.0dip</dimen>
+    <dimen name="px_847">423.5dip</dimen>
+    <dimen name="px_848">424.0dip</dimen>
+    <dimen name="px_849">424.5dip</dimen>
+    <dimen name="px_85">42.5dip</dimen>
+    <dimen name="px_850">425.0dip</dimen>
+    <dimen name="px_851">425.5dip</dimen>
+    <dimen name="px_852">426.0dip</dimen>
+    <dimen name="px_853">426.5dip</dimen>
+    <dimen name="px_854">427.0dip</dimen>
+    <dimen name="px_855">427.5dip</dimen>
+    <dimen name="px_856">428.0dip</dimen>
+    <dimen name="px_857">428.5dip</dimen>
+    <dimen name="px_858">429.0dip</dimen>
+    <dimen name="px_859">429.5dip</dimen>
+    <dimen name="px_86">43.0dip</dimen>
+    <dimen name="px_860">430.0dip</dimen>
+    <dimen name="px_861">430.5dip</dimen>
+    <dimen name="px_862">431.0dip</dimen>
+    <dimen name="px_863">431.5dip</dimen>
+    <dimen name="px_864">432.0dip</dimen>
+    <dimen name="px_865">432.5dip</dimen>
+    <dimen name="px_866">433.0dip</dimen>
+    <dimen name="px_867">433.5dip</dimen>
+    <dimen name="px_868">434.0dip</dimen>
+    <dimen name="px_869">434.5dip</dimen>
+    <dimen name="px_87">43.5dip</dimen>
+    <dimen name="px_870">435.0dip</dimen>
+    <dimen name="px_871">435.5dip</dimen>
+    <dimen name="px_872">436.0dip</dimen>
+    <dimen name="px_873">436.5dip</dimen>
+    <dimen name="px_874">437.0dip</dimen>
+    <dimen name="px_875">437.5dip</dimen>
+    <dimen name="px_876">438.0dip</dimen>
+    <dimen name="px_877">438.5dip</dimen>
+    <dimen name="px_878">439.0dip</dimen>
+    <dimen name="px_879">439.5dip</dimen>
+    <dimen name="px_88">44.0dip</dimen>
+    <dimen name="px_880">440.0dip</dimen>
+    <dimen name="px_881">440.5dip</dimen>
+    <dimen name="px_882">441.0dip</dimen>
+    <dimen name="px_883">441.5dip</dimen>
+    <dimen name="px_884">442.0dip</dimen>
+    <dimen name="px_885">442.5dip</dimen>
+    <dimen name="px_886">443.0dip</dimen>
+    <dimen name="px_887">443.5dip</dimen>
+    <dimen name="px_888">444.0dip</dimen>
+    <dimen name="px_889">444.5dip</dimen>
+    <dimen name="px_89">44.5dip</dimen>
+    <dimen name="px_890">445.0dip</dimen>
+    <dimen name="px_891">445.5dip</dimen>
+    <dimen name="px_892">446.0dip</dimen>
+    <dimen name="px_893">446.5dip</dimen>
+    <dimen name="px_894">447.0dip</dimen>
+    <dimen name="px_895">447.5dip</dimen>
+    <dimen name="px_896">448.0dip</dimen>
+    <dimen name="px_897">448.5dip</dimen>
+    <dimen name="px_898">449.0dip</dimen>
+    <dimen name="px_899">449.5dip</dimen>
+    <dimen name="px_9">4.5dip</dimen>
+    <dimen name="px_90">45.0dip</dimen>
+    <dimen name="px_900">450.0dip</dimen>
+    <dimen name="px_901">450.5dip</dimen>
+    <dimen name="px_902">451.0dip</dimen>
+    <dimen name="px_903">451.5dip</dimen>
+    <dimen name="px_904">452.0dip</dimen>
+    <dimen name="px_905">452.5dip</dimen>
+    <dimen name="px_906">453.0dip</dimen>
+    <dimen name="px_907">453.5dip</dimen>
+    <dimen name="px_908">454.0dip</dimen>
+    <dimen name="px_909">454.5dip</dimen>
+    <dimen name="px_91">45.5dip</dimen>
+    <dimen name="px_910">455.0dip</dimen>
+    <dimen name="px_911">455.5dip</dimen>
+    <dimen name="px_912">456.0dip</dimen>
+    <dimen name="px_913">456.5dip</dimen>
+    <dimen name="px_914">457.0dip</dimen>
+    <dimen name="px_915">457.5dip</dimen>
+    <dimen name="px_916">458.0dip</dimen>
+    <dimen name="px_917">458.5dip</dimen>
+    <dimen name="px_918">459.0dip</dimen>
+    <dimen name="px_919">459.5dip</dimen>
+    <dimen name="px_92">46.0dip</dimen>
+    <dimen name="px_920">460.0dip</dimen>
+    <dimen name="px_921">460.5dip</dimen>
+    <dimen name="px_922">461.0dip</dimen>
+    <dimen name="px_923">461.5dip</dimen>
+    <dimen name="px_924">462.0dip</dimen>
+    <dimen name="px_925">462.5dip</dimen>
+    <dimen name="px_926">463.0dip</dimen>
+    <dimen name="px_927">463.5dip</dimen>
+    <dimen name="px_928">464.0dip</dimen>
+    <dimen name="px_929">464.5dip</dimen>
+    <dimen name="px_93">46.5dip</dimen>
+    <dimen name="px_930">465.0dip</dimen>
+    <dimen name="px_931">465.5dip</dimen>
+    <dimen name="px_932">466.0dip</dimen>
+    <dimen name="px_933">466.5dip</dimen>
+    <dimen name="px_934">467.0dip</dimen>
+    <dimen name="px_935">467.5dip</dimen>
+    <dimen name="px_936">468.0dip</dimen>
+    <dimen name="px_937">468.5dip</dimen>
+    <dimen name="px_938">469.0dip</dimen>
+    <dimen name="px_939">469.5dip</dimen>
+    <dimen name="px_94">47.0dip</dimen>
+    <dimen name="px_940">470.0dip</dimen>
+    <dimen name="px_941">470.5dip</dimen>
+    <dimen name="px_942">471.0dip</dimen>
+    <dimen name="px_943">471.5dip</dimen>
+    <dimen name="px_944">472.0dip</dimen>
+    <dimen name="px_945">472.5dip</dimen>
+    <dimen name="px_946">473.0dip</dimen>
+    <dimen name="px_947">473.5dip</dimen>
+    <dimen name="px_948">474.0dip</dimen>
+    <dimen name="px_949">474.5dip</dimen>
+    <dimen name="px_95">47.5dip</dimen>
+    <dimen name="px_950">475.0dip</dimen>
+    <dimen name="px_951">475.5dip</dimen>
+    <dimen name="px_952">476.0dip</dimen>
+    <dimen name="px_953">476.5dip</dimen>
+    <dimen name="px_954">477.0dip</dimen>
+    <dimen name="px_955">477.5dip</dimen>
+    <dimen name="px_956">478.0dip</dimen>
+    <dimen name="px_957">478.5dip</dimen>
+    <dimen name="px_958">479.0dip</dimen>
+    <dimen name="px_959">479.5dip</dimen>
+    <dimen name="px_96">48.0dip</dimen>
+    <dimen name="px_960">480.0dip</dimen>
+    <dimen name="px_961">480.5dip</dimen>
+    <dimen name="px_962">481.0dip</dimen>
+    <dimen name="px_963">481.5dip</dimen>
+    <dimen name="px_964">482.0dip</dimen>
+    <dimen name="px_965">482.5dip</dimen>
+    <dimen name="px_966">483.0dip</dimen>
+    <dimen name="px_967">483.5dip</dimen>
+    <dimen name="px_968">484.0dip</dimen>
+    <dimen name="px_969">484.5dip</dimen>
+    <dimen name="px_97">48.5dip</dimen>
+    <dimen name="px_970">485.0dip</dimen>
+    <dimen name="px_971">485.5dip</dimen>
+    <dimen name="px_972">486.0dip</dimen>
+    <dimen name="px_973">486.5dip</dimen>
+    <dimen name="px_974">487.0dip</dimen>
+    <dimen name="px_975">487.5dip</dimen>
+    <dimen name="px_976">488.0dip</dimen>
+    <dimen name="px_977">488.5dip</dimen>
+    <dimen name="px_978">489.0dip</dimen>
+    <dimen name="px_979">489.5dip</dimen>
+    <dimen name="px_98">49.0dip</dimen>
+    <dimen name="px_980">490.0dip</dimen>
+    <dimen name="px_981">490.5dip</dimen>
+    <dimen name="px_982">491.0dip</dimen>
+    <dimen name="px_983">491.5dip</dimen>
+    <dimen name="px_984">492.0dip</dimen>
+    <dimen name="px_985">492.5dip</dimen>
+    <dimen name="px_986">493.0dip</dimen>
+    <dimen name="px_987">493.5dip</dimen>
+    <dimen name="px_988">494.0dip</dimen>
+    <dimen name="px_989">494.5dip</dimen>
+    <dimen name="px_99">49.5dip</dimen>
+    <dimen name="px_990">495.0dip</dimen>
+    <dimen name="px_991">495.5dip</dimen>
+    <dimen name="px_992">496.0dip</dimen>
+    <dimen name="px_993">496.5dip</dimen>
+    <dimen name="px_994">497.0dip</dimen>
+    <dimen name="px_995">497.5dip</dimen>
+    <dimen name="px_996">498.0dip</dimen>
+    <dimen name="px_997">498.5dip</dimen>
+    <dimen name="px_998">499.0dip</dimen>
+    <dimen name="px_999">499.5dip</dimen>
+    <dimen name="px_text_0">0.0dip</dimen>
+    <dimen name="px_text_1">0.5dip</dimen>
+    <dimen name="px_text_10">5.0dip</dimen>
+    <dimen name="px_text_11">5.5dip</dimen>
+    <dimen name="px_text_12">6.0dip</dimen>
+    <dimen name="px_text_13">6.5dip</dimen>
+    <dimen name="px_text_14">7.0dip</dimen>
+    <dimen name="px_text_15">7.5dip</dimen>
+    <dimen name="px_text_16">8.0dip</dimen>
+    <dimen name="px_text_17">8.5dip</dimen>
+    <dimen name="px_text_18">9.0dip</dimen>
+    <dimen name="px_text_19">9.5dip</dimen>
+    <dimen name="px_text_2">1.0dip</dimen>
+    <dimen name="px_text_20">10.0dip</dimen>
+    <dimen name="px_text_21">10.5dip</dimen>
+    <dimen name="px_text_22">11.0dip</dimen>
+    <dimen name="px_text_23">11.5dip</dimen>
+    <dimen name="px_text_24">12.0dip</dimen>
+    <dimen name="px_text_25">12.5dip</dimen>
+    <dimen name="px_text_26">13.0dip</dimen>
+    <dimen name="px_text_27">13.5dip</dimen>
+    <dimen name="px_text_28">14.0dip</dimen>
+    <dimen name="px_text_29">14.5dip</dimen>
+    <dimen name="px_text_3">1.5dip</dimen>
+    <dimen name="px_text_30">15.0dip</dimen>
+    <dimen name="px_text_31">15.5dip</dimen>
+    <dimen name="px_text_32">16.0dip</dimen>
+    <dimen name="px_text_33">16.5dip</dimen>
+    <dimen name="px_text_34">17.0dip</dimen>
+    <dimen name="px_text_35">17.5dip</dimen>
+    <dimen name="px_text_36">18.0dip</dimen>
+    <dimen name="px_text_37">18.5dip</dimen>
+    <dimen name="px_text_38">19.0dip</dimen>
+    <dimen name="px_text_39">19.5dip</dimen>
+    <dimen name="px_text_4">2.0dip</dimen>
+    <dimen name="px_text_40">20.0dip</dimen>
+    <dimen name="px_text_41">20.5dip</dimen>
+    <dimen name="px_text_42">21.0dip</dimen>
+    <dimen name="px_text_43">21.5dip</dimen>
+    <dimen name="px_text_44">22.0dip</dimen>
+    <dimen name="px_text_45">22.5dip</dimen>
+    <dimen name="px_text_46">23.0dip</dimen>
+    <dimen name="px_text_47">23.5dip</dimen>
+    <dimen name="px_text_48">24.0dip</dimen>
+    <dimen name="px_text_49">24.5dip</dimen>
+    <dimen name="px_text_5">2.5dip</dimen>
+    <dimen name="px_text_50">25.0dip</dimen>
+    <dimen name="px_text_6">3.0dip</dimen>
+    <dimen name="px_text_60">30.0dip</dimen>
+    <dimen name="px_text_7">3.5dip</dimen>
+    <dimen name="px_text_8">4.0dip</dimen>
+    <dimen name="px_text_9">4.5dip</dimen>
+    <dimen name="table_header">17.0dip</dimen>
+    <dimen name="table_text">14.0dip</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="text_size_13">13.0sp</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_15">15.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_17">17.0sp</dimen>
+    <dimen name="text_size_18">18.0sp</dimen>
+    <dimen name="text_size_19">19.0sp</dimen>
+    <dimen name="text_size_20">20.0sp</dimen>
+    <dimen name="text_size_25">25.0sp</dimen>
+    <dimen name="title_heigth">50.0dip</dimen>
+    <dimen name="white_line_height">46.0dip</dimen>
+    <dimen name="white_line_height_2_more">48.0dip</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/pullToRefreshLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_papa">深圳市啪啪运动文化传播公司成立于2014年9月，致力于推广国内的体育事业发展，传播体育健康文化，推动全民运动风潮，成立以来，啪啪运动公司一直秉承一切以用户价值为依归的经营理念，始终处于稳健、高速发展的状态。目前公司主要产品有体育竞技类APP、体育资讯网站以及相关增值产品。</string>
+    <string name="accept">接受</string>
+    <string name="accept_invitation">接受对方邀请</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_friends">添加好友</string>
+    <string name="app_name">啪啪江湖</string>
+    <string name="available_point">可用的活力积分</string>
+    <string name="camera">相机</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="cancel">取消</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="challenge">挑战</string>
+    <string name="chating">聊天</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/weiboSDK/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_sina_weibo_sdk_login">登录</string>
+    <string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登录</string>
+    <string name="com_sina_weibo_sdk_logout">注销</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="combat_history">战绩</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_man">男</string>
+    <string name="common_next_step">下一步</string>
+    <string name="common_position">地点</string>
+    <string name="common_setting">设置</string>
+    <string name="common_time">时间</string>
+    <string name="common_woman">女</string>
+    <string name="competition_fee">费用</string>
+    <string name="competition_illustration">说明</string>
+    <string name="competition_invitation">邀请：</string>
+    <string name="competition_item">约赛项目</string>
+    <string name="competition_item2">项目：</string>
+    <string name="competition_theme">赛事主题</string>
+    <string name="competition_theme2">约赛主题</string>
+    <string name="competition_time">时间：</string>
+    <string name="competition_tips1">1、押付的积分越多，越能展现自己的诚意，对方接受率也就越高，约赛成功后回报也越高。</string>
+    <string name="competition_tips2">2、发布的邀约若无人接受，约会过后花费的活力全部返还。</string>
+    <string name="complete">完成</string>
+    <string name="current_combat">近期战绩</string>
+    <string name="current_vitality">当前活力</string>
+    <string name="dogfall">平</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="douban">豆瓣</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="drop_down_refresh">下拉刷新</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_unknown">发送返回</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="evernote">印象笔记</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="everyday_login">每日登录</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="facebook">Facebook</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="feedback_content">请提出您的宝贵意见或建议，啪啪的成长离不开您的支持，我们将抽取一些用户给予适当的奖励！</string>
+    <string name="feedback_title">请输入反馈标题</string>
+    <string name="find_password">找回密码</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="finish">完成</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <string name="hold_down_talk">按住说话</string>
+    <string name="how_to_gain_point">如何获得活力积分</string>
+    <string name="how_to_get">如何获得?</string>
+    <string name="input_competition_illustration">请输入赛事说明</string>
+    <string name="input_competition_theme">请输入赛事主题</string>
+    <string name="input_invitation_point">请输入你愿意花费的活力</string>
+    <string name="input_new_password">请输入您的新密码</string>
+    <string name="input_new_password_again">请再次输入您的新密码</string>
+    <string name="input_note_verification_code">请输入6位您的短信验证码</string>
+    <string name="input_password">请输入您的密码</string>
+    <string name="input_password_again">请再次输入您的密码</string>
+    <string name="input_telephone">请输入您的手机号</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="invatation">邀请比赛</string>
+    <string name="invitation_point">愿押付的积分</string>
+    <string name="invitation_point_least15">愿花费的活力(至少15个活力)</string>
+    <string name="invite_friend">邀请好友加入</string>
+    <string name="invite_success">约赛成功</string>
+    <string name="join_aboutmatch">暂无约赛消息,快去邀请朋友一起玩耍吧</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="kaixin">开心网</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="let_go_refresh">放开刷新...</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="linkedin">Linked In</string>
+    <string name="list_friends">%s的朋友</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="loading_in">正在载入......</string>
+    <string name="login_login">登陆</string>
+    <string name="loose_end_talk">松开结束说话</string>
+    <string name="lose">负</string>
+    <string name="mine">我的</string>
+    <string name="mine_default_level">LV15</string>
+    <string name="mine_invitation">我发起的</string>
+    <string name="mine_join">邀请我的</string>
+    <string name="mine_military">战绩积分</string>
+    <string name="mine_papa_num">邮箱</string>
+    <string name="mine_vitality_point">活力积分</string>
+    <string name="mobile_register">手机注册</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="multi_share">图文分享</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="new_user">新用户</string>
+    <string name="news">消息</string>
+    <string name="news_about_match">约赛</string>
+    <string name="news_about_match_news">约赛消息</string>
+    <string name="news_add">添加</string>
+    <string name="news_add_friends">添加为好友</string>
+    <string name="news_added">已添加</string>
+    <string name="news_contacts">联系人</string>
+    <string name="news_invitation">邀请</string>
+    <string name="news_my_friends">我的好友</string>
+    <string name="news_new_friends">新的朋友</string>
+    <string name="news_new_friends_added">已接受</string>
+    <string name="news_offcial_assistant">官方助手</string>
+    <string name="news_request_add_friends">请求添加为好友</string>
+    <string name="news_search_friends_details">详细资料</string>
+    <string name="no_city">加载城市数据中...</string>
+    <string name="no_ranking">约赛都没点过,还想要排名</string>
+    <string name="nowadays_assignment">今日任务</string>
+    <string name="other_award">其他奖励</string>
+    <string name="password">密码</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="publish">邀请</string>
+    <string name="publish_invitation">发布邀请</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/pullToRefreshLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ranking">排名：</string>
+    <string name="ranking2">排名</string>
+    <string name="read_user_agreement">已阅读并同意《用户协议》</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="refreshing">刷新中…</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="register_success">注册成功</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="release_to_refresh">松开刷新</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="remind_accept_message">接收消息</string>
+    <string name="remind_hint">温馨提示:\n1、接收消息-关闭将屏蔽除系统消息之外的私信\n2、声音-控制消息声音提示\n3、震动-控制消息震动提示\n4、免打扰设置-开启后，2点-7点将自动关闭声音及震动</string>
+    <string name="remind_no_disturbing">免打扰设置</string>
+    <string name="remind_vibration">震动</string>
+    <string name="remind_voice">声音</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="renren">人人网</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="school">学校</string>
+    <string name="select_fee">选择费用</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="send_message">发送消息</string>
+    <string name="setting">设置</string>
+    <string name="setting_about_papa">关于啪啪</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_logout">退出登陆</string>
+    <string name="setting_logout_confirm">确定退出？</string>
+    <string name="setting_opinion_feedback">意见反馈</string>
+    <string name="setting_remind_setting">提醒设置</string>
+    <string name="setting_update_new_version">检查新版本</string>
+    <string name="setting_update_password">修改密码</string>
+    <string name="setting_user_agreement">用户协议</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="share_qq">分享至QQ空间</string>
+    <string name="share_sina">分享至新浪微博</string>
+    <string name="share_tips">分享有礼,分享即可获得啪啪排名积分</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="share_to">分享到</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="share_we_chat">分享之朋友圈</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="shortmessage">信息</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="show_password">显示密码</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sinaweibo">新浪微博</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="sms_sending">短信发送中</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="space_constraints">您输入的字数超过了限制！</string>
+    <string name="submit">提交</string>
+    <string name="telephone_or_papa_number">手机号/啪啪号</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="tencentweibo">腾讯微博</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="tips">提示：</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="user_address">所在地</string>
+    <string name="user_address_default">广东-深圳-南山</string>
+    <string name="user_agreement">首部及导言\n
+请仔细阅读本协议，啪啪江湖APP软件将依据以下条件和条款为您提供服务。\n
+欢迎阅读啪啪江湖APP软件用户协议(下称“本协议”)。本协议阐述之条款和条件适用于您使用啪啪江湖APP软件所提供的各种工具和服务(下称“服务”)\n
+1．服务条款的确认\n
+啪啪江湖APP软件根据本服务条款及对该条款的修改向用户提供服务。本服务条款具有合同法上的法律效力。\n
+如果您对协议的任何条款表示异议，您可以选择不注册，一旦您点选“注册”并通过注册程序，即表示您自愿接受本协议之所有条款，并已成为啪啪江湖APP软件的注册会员。用户在使用啪啪江湖APP软件的同时，同意接受啪啪江湖APP软件会员服务提供的各类信息服务。\n
+2．服务内容及修改、中断、终止\n
+2.1 啪啪江湖APP软件服务的具体内容由本平台根据实际情况提供，并对所提供之服务拥有最终解释权。\n
+2.2 啪啪江湖APP软件仅向其会员提供相关服务，与相关服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均由会员自行负担。\n
+2.3 鉴于网络服务的特殊性，用户同意啪啪江湖APP软件有权不经事先通知，随时变更、中断或终止部分或全部的网络服务（包括收费网络服务）。啪啪江湖APP软件不担保网络服务不会中断，对网络服务的及时性、安全性、准确性也都不作担保。\n
+2.4 啪啪江湖APP软件需要定期或不定期地对提供网络服务的平台或相关的设备进行检修或者维护，如因此类情况而造成网络服务（包括收费网络服务）在合理时间内的中断，啪啪江湖APP软件无需为此承担任何责任。啪啪江湖APP软件保留不经事先通知为维修保养、升级或其它目的暂停全部或部分的网络服务的权利。\n
+2.5 用户明确同意其使用啪啪江湖APP软件网络服务所存在的风险将完全由其自己承担。用户理解并接受下载或通过啪啪江湖APP软件服务而链接及得到的资讯、产品及服务均系啪啪江湖APP软件自动搜录，啪啪江湖APP软件对其合法性概不负责，亦不承担任何法律责任，用户自行承担风险，啪啪江湖APP软件不做任何形式的保证，不保证搜索结果满足用户的要求，不保证搜索服务不中断，对搜索结果的安全性、正确性、及时性、合法性均不做担保。\n
+2.6 啪啪江湖APP软件对超过6个月未登录使用的帐号，保留关闭的权利。\n
+2.7 啪啪江湖APP软件有权于任何时间暂时或永久修改或终止本服务（或其任何部分），而无论其通知与否，啪啪江湖APP软件对用户和任何第三人均无需承担任何责任。\n
+2.8 您同意啪啪江湖APP软件得基于其自行之考虑，因任何理由，包含但不限于长时间未使用，或啪啪江湖APP软件认为您已经违反本服务协议的文字及精神，终止您的密码、帐号或本服务之使用（或服务之任何部分），并将您在本服务内任何内容加以移除并删除。您同意依本服务协议任何规定提供之服务，无需进行事先通知即可中断或终止，您承认并同意，啪啪江湖APP软件可立即关闭或删除您的帐号及您帐号中所有相关信息及文件，或禁止继续使用前述文件或本服务。\n
+此外，您同意若本服务之使用被中断或终止或您的帐号及相关信息和文件被关闭或删除，啪啪江湖APP软件对您或任何第三人均不承担任何责任。\n
+3．会员帐号及密码\n
+用户注册会员成功后，啪啪江湖APP软件将给予每个会员一个帐号及相应的密码，该帐号和密码由用户负责保管；用户应当对以其用户帐号进行的所有活动和事件负法律责任。\n
+因黑客行为或会员保管疏忽致使帐号、密码被他人非法使用的，本公司不承担任何责任。如您发现任何非法使用会员帐号或安全漏洞的情况，请立即与本公司联系。\n
+4. 注册信息和隐私保护\n
+4.1 啪啪江湖APP软件（即啪啪江湖APP软件用户ID）的所有权归啪啪江湖APP软件，用户完成注册申请手续后，获得啪啪江湖APP软件帐号的使用权。用户应提供及时、详尽及准确的个人资料，并不断更新注册资料，符合及时、详尽准确的要求。所有原始键入的资料将作为注册资料。如果因用户注册信息不真实而引起的问题及其产生的后果，啪啪江湖APP软件不负任何责任。\n
+4.2 用户不得将其帐号、密码转让或出借予他人使用。如发现其帐号遭他人非法使用，应立即通知啪啪江湖APP软件。\n
+4.3 啪啪江湖APP软件不对外公开或向第三方提供单个用户的注册资料，除非：\n
+• 事先获得用户的明确授权；\n
+• 只有透露你的个人资料，才能提供你所要求的产品和服务；\n
+• 根据有关的法律法规要求；\n
+• 按照相关政府主管部门的要求；\n
+• 为维护啪啪江湖APP软件的合法权益。\n
+4.4 在您注册啪啪江湖APP软件帐户，使用啪啪江湖APP软件产品或服务，或访问啪啪江湖APP软件网页时，啪啪江湖APP软件会收集您的个人身份识别资料，并会将这些资料用于：改进为您提供的服务及网页内容。\n
+5. 用户权责\n
+5.1符合下列条件之一的个人、组织，才能申请成为啪啪江湖APP软件用户、使用本协议项下的服务：\n
+5.1.1 年满十八周岁，并具有民事权利能力和民事行为能力的自然人；\n
+5.1.2 未满十八周岁，但监护人（包括但不仅限于父母）予以书面同意的自然人；\n
+5.1.3 根据中国法律、法规成立并合法存在的公司等企业法人、事业单位、社团组织和其他组织。无民事行为能力人、限制民事行为能力人以及无经营或特定经营资格的组织不当注册为用户的，其与本公司之间的协议自始无效，本公司一经发现，有权立即注销该用户。\n
+5.2 用户有权按照啪啪江湖APP软件规定的程序和要求使用啪啪江湖APP软件向会员提供的各项网络服务，如果会员对该服务有异议，可以与啪啪江湖APP软件联系以便得到及时解决。\n
+5.3 用户在申请使用啪啪江湖APP软件网络服务时，必须向啪啪江湖APP软件提供准确的个人资料，如个人资料有任何变动，必须及时更新。\n
+5.4 用户须同意接受啪啪江湖APP软件通过电子邮件或其他方式向会员发送相关商业信息。\n
+5.5 用户在使用啪啪江湖APP软件服务时，必须遵守中华人民共和国相关法律法规的规定，不得利用本服务进行任何违法或不正当的活动，包括但不限于下列行为∶\n
+5.5.1 制作、复制、发布、传播或以其它方式传送含有下列内容之一的信息：\n
+•反对宪法所确定的基本原则的\n
+•危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\n
+•损害国家荣誉和利益的；\n
+•煽动民族仇恨、民族歧视、破坏民族团结的；\n
+•破坏国家宗教政策，宣扬邪教和封建迷信的；\n
+•散布谣言，扰乱社会秩序，破坏社会稳定的；\n
+•散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\n
+•侮辱或者诽谤他人，侵害他人合法权利的；\n
+•煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的；\n
+•以非法民间组织名义活动的；\n
+•含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；\n
+•含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的。\n
+5.5.2 不得利用啪啪江湖APP软件服务从事以下活动：\n
+•未经允许，进入计算机信息网络或者使用计算机信息网络资源；\n
+•未经允许，对计算机信息网络功能进行删除、修改或者增加；\n
+•未经允许，对进入计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加；\n
+•故意制作、传播计算机病毒等破坏性程序；\n
+•其他危害计算机信息网络安全的行为。\n
+5.6 用户违反本协议或相关的服务条款的规定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括合理的律师费，您同意赔偿啪啪江湖APP软件与合作公司、关联公司，并使之免受损害。对此，啪啪江湖APP软件有权视用户的行为性质，采取包括但不限于删除用户发布信息内容、暂停使用许可、终止服务、限制使用、回收啪啪江湖APP软件帐号、追究法律责任等措施。对恶意注册啪啪江湖APP软件帐号或利用啪啪江湖APP软件帐号进行违法活动、捣乱、骚扰、欺骗、其他用户以及其他违反本协议的行为，啪啪江湖APP软件有权回收其帐号。同时，本公司会视司法部门的要求，协助调查。\n
+5.7 用户不得对啪啪江湖APP软件任何部分通过任何方式进行复制、拷贝、出售、转售或用于任何其它商业目的。\n
+5.8 用户须对自己在使用啪啪江湖APP软件服务过程中的行为承担法律责任。用户承担法律责任的形式包括但不限于：对受到侵害者进行赔偿，以及在啪啪江湖APP软件运营公司首先承担了因用户行为导致的行政处罚或侵权损害赔偿责任后，用户应给予啪啪江湖APP软件运营公司等额的赔偿。\n
+6. 知识产权\n
+6.1 啪啪江湖APP软件网站及网站所使用的任何相关软件、程序、内容，包括但不限于作品、图片、档案、资料、网站构架、网站版面的安排、网页设计、经由本网站或广告商向用户呈现的广告或资讯，均由本公司或其它权利人依法享有相应的知识产权，包括但不限于著作权、商标权、专利权或其它专属权利等，受到相关法律的保护。未经本公司或权利人明示授权，用户保证不修改、出租、出借、出售、散布本网站及本网站所使用的上述任何资料和资源，或根据上述资料和资源制作成任何种类物品。\n
+6.2 本公司授予用户不可转移及非专属的使用权，使用户可以通过单机计算机使用本网站的目标代码（以下简称“软件”），但用户不得且不得允许任何第三方，复制、修改、创作衍生作品、进行还原工程、反向组译，或以其它方式破译或试图破译源代码，或出售、转让“软件”或对“软件”进行再授权，或以其它方式移转“软件”之任何权利。用户同意不以任何方式修改“软件”，或使用修改后的“软件”。\n
+6.3 啪啪江湖APP软件有权在所有由平台提供的功能界面标注“此功能由啪啪江湖APP软件提供”等相关版权信息。。\n
+6.4 用户不得经由非啪啪江湖APP软件所提供的界面使用本网站。\n
+7. 其他\n
+7.1 因不可抗力或者其他意外事件，使得本协议的履行不可能、不必要或者无意义的，双方均不承担责任。本协议所称之不可抗力意指不能预见、不能避免并不能克服的客观情况，包括但不限于战争、台风、水灾、火灾、雷击或地震、罢工、暴动、法定疾病、黑客攻击、网络病毒、电信部门技术管制、政府行为或任何其它自然或人为造成的灾难等客观情况。\n
+7.2 本条款及其修订本的有效性、履行和与本条款及其修订本效力有关的所有事宜，将受中华人民共和国法律约束，任何争议仅适用中华人民共和国法律。\n
+7.3 因本条款所引起的用户与本公司的任何纠纷或争议，首先应友好协商解决，协商不成的，用户在此同意将纠纷或争议提交本公司住所地有管辖权的人民法院诉讼解决。\n
+7.4用户正确提交注册程序所需的资料并确认本协议后，本协议在啪啪江湖APP软件与用户之间成立并生效。\n
+7.5本协议生效前的注册用户只需要使用原用户名及密码登录啪啪江湖APP软件网站重新接受并确认本协议，即可继续使用啪啪江湖APP软件的服务。\n
+7.6协议有效期：从用户同意本协议或使用啪啪江湖APP软件起至用户注销啪啪江湖APP软件服务止。\n
+7.7本协议如无特殊规定，双方应当使用电子邮件方式就本协议相关事项进行联系。\n
+7.8啪啪江湖APP软件各相关部门的电子邮箱以在啪啪江湖APP软件官方网站上注明的为准。\n
+7.9使用啪啪江湖APP软件即表示接受啪啪江湖APP软件服务协议及其所有附件。\n
+7.10本协议的最终解释权归啪啪江湖APP软件所有。\n
+    </string>
+    <string name="user_area">地区</string>
+    <string name="user_basic_information">基本资料</string>
+    <string name="user_birthday">出生年月</string>
+    <string name="user_birthday2">出生日期</string>
+    <string name="user_birthday_default">1990-01-01</string>
+    <string name="user_company">公司</string>
+    <string name="user_email">邮箱</string>
+    <string name="user_head">头像</string>
+    <string name="user_nickname">昵称</string>
+    <string name="user_nickname2">昵称</string>
+    <string name="user_occupation">职业</string>
+    <string name="user_other_information">其他资料</string>
+    <string name="user_papa_number">啪啪号:</string>
+    <string name="user_personal_signature">个性签名</string>
+    <string name="user_school">学校</string>
+    <string name="user_sex">性别</string>
+    <string name="user_sex_default">男</string>
+    <string name="user_submit">提交</string>
+    <string name="user_unwrite">未填写</string>
+    <string name="user_upload_icon">上传头像</string>
+    <string name="verification_code">获取验证码</string>
+    <string name="vitality_tip1">1、活力积分越高，越能体现自己的运动活跃度，等级也越高。</string>
+    <string name="vitality_tip2">2、发布邀请的信用越高，约赛成功率也会越高。</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="win">胜</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/page_indicator_styles.xml -->
+    <eat-comment/>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:dividerPadding">8dp</item>
+         <item name="android:textSize">17sp</item> 
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Login_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_88</item>
+        <item name="android:layout_marginLeft">@dimen/px_75</item>
+        <item name="android:layout_marginRight">@dimen/px_75</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/textview_fillet_white</item>
+        <item name="android:paddingLeft">@dimen/px_10</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/page_indicator_styles.xml -->
+    <eat-comment/>
+    <style name="StyledIndicators" parent="@android:style/android:Theme.Holo.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Success_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/px_45</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_17</item>
+         <item name="android:singleLine">true</item>
+    </style>
+    <style name="Success_ImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/px_20</item>
+        <item name="android:src">@drawable/common_next</item>
+    </style>
+    <style name="Success_RelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/px_20</item>
+    </style>
+    <style name="Success_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/build/intermediates/exploded-aar/Android_App2/weiboSDK/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_sina_weibo_sdk_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/com_sina_weibo_sdk_loginview_padding_left</item>
+        <item name="android:paddingTop">@dimen/com_sina_weibo_sdk_loginview_padding_top</item>
+        <item name="android:paddingRight">@dimen/com_sina_weibo_sdk_loginview_padding_right</item>
+        <item name="android:paddingBottom">@dimen/com_sina_weibo_sdk_loginview_padding_bottom</item>
+        <item name="android:drawableLeft">@drawable/ic_com_sina_weibo_sdk_logo</item>
+        <item name="android:drawablePadding">@dimen/com_sina_weibo_sdk_loginview_compound_drawable_padding</item>
+        <item name="android:background">@drawable/com_sina_weibo_sdk_button_blue</item>
+        <item name="android:textColor">@color/com_sina_weibo_sdk_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_sina_weibo_sdk_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/com_sina_weibo_sdk_login_with_weibo_account</item>
+    </style>
+    <style name="com_sina_weibo_sdk_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/com_sina_weibo_sdk_loginview_padding_left</item>
+        <item name="android:paddingTop">@dimen/com_sina_weibo_sdk_loginview_padding_top</item>
+        <item name="android:paddingRight">@dimen/com_sina_weibo_sdk_loginview_padding_right</item>
+        <item name="android:paddingBottom">@dimen/com_sina_weibo_sdk_loginview_padding_bottom</item>
+        <item name="android:drawableLeft">@drawable/ic_com_sina_weibo_sdk_logo</item>
+        <item name="android:drawablePadding">@dimen/com_sina_weibo_sdk_loginview_compound_drawable_padding</item>
+        <item name="android:background">@drawable/com_sina_weibo_sdk_button_grey</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:textSize">@dimen/com_sina_weibo_sdk_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/com_sina_weibo_sdk_login_with_weibo_account</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/dialog</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+    <style name="fedback_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_88</item>
+        <item name="android:layout_marginLeft">@dimen/px_35</item>
+        <item name="android:layout_marginRight">@dimen/px_35</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/textview_fillet_white1</item>
+        <item name="android:paddingLeft">@dimen/px_10</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+    <style name="feedback_bug_linearlayout">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:orientation">horizontal</item>
+         <item name="android:background">@color/white</item>
+         <item name="android:gravity">center</item>
+         <item name="android:layout_marginTop">@dimen/px_5</item>
+         <item name="android:padding">@dimen/px_5</item>
+     </style>
+    <style name="news_track_point">
+        <item name="android:layout_width">@dimen/px_30</item>
+        <item name="android:layout_height">@dimen/px_30</item>
+        <item name="android:background">@drawable/button_fillet_red</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/white</item>
+          <item name="android:gravity">center</item>
+    </style>
+    <style name="tab_menu_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">@dimen/px_10</item>
+    </style>
+</resources>

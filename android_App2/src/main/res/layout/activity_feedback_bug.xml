@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_backgroud" >
+    
+    <include layout="@layout/common_title" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        
+        <CheckBox
+            android:id="@+id/cb_feedback_bug_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="反馈问题" />
+        
+        <CheckBox
+            android:id="@+id/cb_feedback_bug_suggest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="给点建议" />
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/feedback_bug_linearlayout" >
+        
+        <TextView
+            android:id="@+id/tx_feedback_bug_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题摘要：" />
+        
+        <EditText
+            android:id="@+id/et_feedback_bug_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/feedback_bug_linearlayout" >
+        
+        <TextView
+            android:id="@+id/tx_feedback_bug_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题描述：" />
+        
+        <EditText
+            android:id="@+id/et_feedback_bug_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_feedback_bug_frequency"
+        style="@style/feedback_bug_linearlayout" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出现频率" />
+        
+        <Spinner
+            android:id="@+id/sp_feedback_bug_frequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bug_frequency" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_5"
+        android:background="@color/white"
+        android:textSize="12sp"
+        android:text="问题现场截屏图片（建议至少一张，可以没有截屏汇报问题）" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/px_10" >
+            
+            <ImageView
+                android:id="@+id/img_feedback_bug_one"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_300"
+                android:src="@drawable/sport_no"
+                android:scaleType="fitXY" />
+            
+            <ImageView
+                android:id="@+id/img_feedback_bug_one_cancel"
+                android:layout_width="@dimen/px_40"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/img_cancel"
+                android:layout_alignTop="@+id/img_feedback_bug_one"
+                android:layout_alignRight="@+id/img_feedback_bug_one"
+                android:visibility="invisible" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/px_10" >
+            
+            <ImageView
+                android:id="@+id/img_feedback_bug_two"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_300"
+                android:src="@drawable/sport_no"
+                android:scaleType="fitXY" />
+            
+            <ImageView
+                android:id="@+id/img_feedback_bug_two_cancel"
+                android:layout_width="@dimen/px_40"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/img_cancel"
+                android:layout_alignTop="@+id/img_feedback_bug_two"
+                android:layout_alignRight="@+id/img_feedback_bug_two"
+                android:visibility="invisible" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/px_10" >
+            
+            <ImageView
+                android:id="@+id/img_feedback_bug_three"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_300"
+                android:src="@drawable/sport_no"
+                android:scaleType="fitXY" />
+            
+            <ImageView
+                android:id="@+id/img_feedback_bug_three_cancel"
+                android:layout_width="@dimen/px_40"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/img_cancel"
+                android:layout_alignTop="@+id/img_feedback_bug_three"
+                android:layout_alignRight="@+id/img_feedback_bug_three"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/feedback_bug_linearlayout" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="反馈人：" />
+        
+        <EditText
+            android:id="@+id/et_feedback_bug_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:hint="姓名" />
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/feedback_bug_linearlayout" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机：" />
+        
+        <EditText
+            android:id="@+id/et_feedback_bug_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="number" />
+    </LinearLayout>
+</LinearLayout>

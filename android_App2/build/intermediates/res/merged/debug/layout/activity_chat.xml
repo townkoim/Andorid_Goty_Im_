@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_backgroud" >
+
+    <include
+        android:id="@+id/chat_title"
+        layout="@layout/common_title" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chat_relayout"
+        android:layout_below="@+id/chat_title" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chat_ptr_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/white"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true" />
+
+        <ImageView
+            android:id="@+id/chat_img_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_relayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/chat_rl_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_98"
+            android:background="@color/gainsboro" >
+
+            <ImageView
+                android:id="@+id/chat_img_voice_or_keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/px_10"
+                android:src="@drawable/chat_voice" />
+
+            <RelativeLayout
+                android:id="@+id/chat_relayout_text_message"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_70"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/chat_img_send_state"
+                android:layout_toRightOf="@+id/chat_img_voice_or_keyboard"
+                android:background="@drawable/textview_fillet_white1" >
+
+                <EditText
+                    android:id="@+id/chat_et_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/chat_img_expression"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/px_15"
+                    android:textSize="@dimen/text_size_14" />
+
+                <ImageView
+                    android:id="@+id/chat_img_expression"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/px_5"
+                    android:src="@drawable/chat_expression" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/chat_btn_voice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_70"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/chat_img_send_state"
+                android:layout_toRightOf="@+id/chat_img_voice_or_keyboard"
+                android:background="@drawable/chat_voice_btn_background"
+                android:text="@string/hold_down_talk"
+                android:textSize="@dimen/text_size_14"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/chat_img_send_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/px_10"
+                android:src="@drawable/chat_message_send_unselect" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chat_layout_popup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_300"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/chat_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/chat_dot_viewgroup" />
+
+            <LinearLayout
+                android:id="@+id/chat_dot_viewgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/px_10"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_chat.xml -->

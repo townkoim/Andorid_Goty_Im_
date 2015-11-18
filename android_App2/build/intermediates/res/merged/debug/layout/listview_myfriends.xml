@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+         android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <com.slife.gopapa.view.XCRoundRectImageView
+        android:id="@+id/my_friends_icon"
+        android:layout_width="@dimen/px_90"
+        android:layout_height="@dimen/px_90"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/px_20"
+                    android:focusable="false"
+        android:src="@drawable/common_users_icon_default" />
+
+    <TextView
+        android:id="@+id/my_friends_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="asdasd"
+        android:textSize="@dimen/text_size_16" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/listview_myfriends.xml -->

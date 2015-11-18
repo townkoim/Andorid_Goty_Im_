@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_88"
+    android:orientation="horizontal"
+    android:background="@drawable/listview_backgroud_selector"  
+    android:id="@+id/headview_news_friends_myfriends">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px_10"
+        android:src="@drawable/news_friends_default" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/news_my_friends"
+        android:textSize="@dimen/text_size_16" />
+
+</LinearLayout>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:id="@+id/activity_mine_rl_information"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_180"
+        android:background="@drawable/selector_relativelayout" >
+
+        <com.slife.gopapa.view.XCRoundRectImageView
+            android:id="@+id/activity_mine_img"
+            android:layout_width="@dimen/px_130"
+            android:layout_height="@dimen/px_130"
+            android:layout_margin="@dimen/px_20"
+            android:background="#00000000"
+            android:src="@drawable/common_users_icon_default"
+            tools:ignore="ContentDescription,ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/activity_mine_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_25"
+            android:layout_toRightOf="@+id/activity_mine_img" >
+
+            <TextView
+                android:id="@+id/activity_mine_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_size_15" />
+
+            <ImageView
+                android:id="@+id/activity_mine_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_marginRight="@dimen/px_10"
+                android:layout_toRightOf="@+id/activity_mine_name"
+                android:src="@drawable/man"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_mine_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/activity_mine_sex"
+                android:textSize="@dimen/text_size_15" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/activity_mine_papa_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_mine_rl"
+            android:layout_toRightOf="@+id/activity_mine_img"
+            android:text="@string/user_papa_number"
+            android:textSize="@dimen/text_size_14" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_mine_papa_num"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_toRightOf="@+id/activity_mine_img" >
+
+            <TextView
+                android:id="@+id/activity_mine_papa_vitality_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_40"
+                android:textSize="@dimen/text_size_14" />
+
+            <ImageView
+                android:layout_width="@dimen/px_40"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/medal"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/activity_mine_papa_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_mine_rl"
+            android:layout_marginLeft="@dimen/px_10"
+            android:layout_toRightOf="@+id/activity_mine_papa_num"
+            android:textSize="@dimen/text_size_14" />
+
+        <ImageView
+            android:id="@+id/activity_mine_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_191"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/activity_mine_rl_vitality"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_95"
+            android:background="@drawable/selector_relativelayout"
+            android:paddingLeft="@dimen/px_20" >
+
+            <ImageView
+                android:id="@+id/acticity_mine_img_vitality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/vitality_point"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_toRightOf="@+id/acticity_mine_img_vitality"
+                android:text="@string/mine_vitality_point"
+                android:textSize="@dimen/text_size_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:src="@drawable/next"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="@dimen/px_20"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:id="@+id/activity_mine_rl_military"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_95"
+            android:background="@drawable/selector_relativelayout"
+            android:paddingLeft="@dimen/px_20" >
+
+            <ImageView
+                android:id="@+id/acticity_mine_img_military"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/military_point"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_toRightOf="@+id/acticity_mine_img_military"
+                android:text="@string/mine_military"
+                android:textSize="@dimen/text_size_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:src="@drawable/next"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_191"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/activity_mine_rl_invatation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_95"
+            android:background="@drawable/selector_relativelayout"
+            android:paddingLeft="@dimen/px_20" >
+
+            <ImageView
+                android:id="@+id/acticity_mine_img_invatation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mine_invitation"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_toRightOf="@+id/acticity_mine_img_invatation"
+                android:text="@string/mine_invitation"
+                android:textSize="@dimen/text_size_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:src="@drawable/next"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="@dimen/px_20"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:id="@+id/activity_mine_rl_join"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_95"
+            android:background="@drawable/selector_relativelayout"
+            android:paddingLeft="@dimen/px_20" >
+
+            <ImageView
+                android:id="@+id/acticity_mine_img_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mine_join"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_toRightOf="@+id/acticity_mine_img_join"
+                android:text="@string/mine_join"
+                android:textSize="@dimen/text_size_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:src="@drawable/next"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_mine_rl_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_95"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="@drawable/selector_relativelayout" >
+
+        <ImageView
+            android:id="@+id/acticity_mine_img_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_20"
+            android:src="@drawable/setting"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_10"
+            android:layout_toRightOf="@+id/acticity_mine_img_setting"
+            android:text="@string/common_setting"
+            android:textSize="@dimen/text_size_15" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="#fff" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_mine.xml -->

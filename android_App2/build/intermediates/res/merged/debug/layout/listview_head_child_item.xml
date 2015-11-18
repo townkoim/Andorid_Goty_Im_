@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.slife.gopapa.view.MyImageView
+        android:id="@+id/child_image"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="@drawable/friends_sends_pictures_no"
+        android:scaleType="fitXY" />
+
+</FrameLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/listview_head_child_item.xml -->

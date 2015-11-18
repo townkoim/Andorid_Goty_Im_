@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+         android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contacts_friends_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/white" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/listview_contacts_friends_item1.xml -->

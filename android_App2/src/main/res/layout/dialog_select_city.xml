@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/px_550"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_for_my_join"
+    android:orientation="vertical">
+
+    <com.slife.gopapa.view.citypicker.CityPicker
+        android:id="@+id/citypicker"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center" >
+    </com.slife.gopapa.view.citypicker.CityPicker>
+
+    <Button
+        android:id="@+id/citypicker_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_90"
+        android:background="#00000000"
+        android:textSize="@dimen/text_size_15"
+        android:textColor="#000"
+        android:text="确认" />
+
+</LinearLayout>

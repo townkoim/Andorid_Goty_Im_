@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gotye_api_release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android_App2/libs/gotye_api_release.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

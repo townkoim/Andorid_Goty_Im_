@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.slife.gopapa.view.MyImageView
+            android:id="@+id/group_image"
+            android:background="#fff"
+            android:src="@drawable/friends_sends_pictures_no"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="18dip"
+            android:paddingBottom="30dip"
+            android:scaleType="fitXY"
+            android:layout_width="fill_parent"
+            android:layout_height="150dip" />
+
+        <TextView
+            android:id="@+id/group_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/albums_icon_bg"
+            android:gravity="center"
+            android:layout_marginBottom="10dip"
+            android:layout_gravity="bottom|center_horizontal" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/group_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/framelayout"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Camera"
+        android:textSize="16sp" />
+
+</RelativeLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/listview_head_group_item.xml -->

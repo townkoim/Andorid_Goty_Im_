@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:descendantFocusability="afterDescendants">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_20"
+        android:background="@color/common_backgroud" />
+
+    <RelativeLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/news_relayout_offcial_assistant"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@drawable/listview_backgroud_selector" >
+        
+        <ImageView
+            android:id="@+id/news_img_offcial_assistant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_20"
+            android:src="@drawable/news_official_assistant" />
+
+        <TextView
+            android:id="@+id/news_tv_offcial_assistant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/news_img_offcial_assistant"
+            android:layout_toRightOf="@+id/news_img_offcial_assistant"
+            android:text="@string/news_offcial_assistant"
+            android:textColor="@color/news_text"
+            android:textSize="@dimen/text_size_17" />
+
+        <TextView
+            android:id="@+id/news_tv_offcial_assistant_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/news_tv_offcial_assistant"
+            android:layout_below="@+id/news_tv_offcial_assistant"
+            android:text="官方最新动态"
+            android:textColor="@color/gray_text"
+            android:layout_marginTop="@dimen/px_5"
+            android:textSize="@dimen/text_size_12" />
+
+
+        <Button
+            android:id="@+id/news_offcial_assistant_trackpoint"
+            style="@style/news_track_point"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_toLeftOf="@+id/news_tv_offcial_assistant"
+            android:text="0"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_view_margin20" />
+
+    <RelativeLayout
+               android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/news_relayout_about_match"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@drawable/listview_backgroud_selector" >
+
+        <ImageView
+            android:id="@+id/news_img_about_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_20"
+            android:src="@drawable/news_about_match" />
+
+        <TextView
+            android:id="@+id/news_tv_about_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/news_img_about_match"
+            android:layout_toRightOf="@+id/news_img_about_match"
+            android:text="@string/news_about_match"
+            android:textColor="@color/news_text"
+            android:textSize="@dimen/text_size_17" />
+
+        <TextView
+            android:id="@+id/news_tv_about_match_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/news_tv_about_match"
+            android:layout_below="@+id/news_tv_about_match"
+            android:text="约赛消息提醒"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_12" />
+
+
+        <Button
+            android:id="@+id/news_about_match_trackpoint"
+            style="@style/news_track_point"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_toLeftOf="@+id/news_tv_about_match"
+            android:text="0"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include layout="@layout/common_view_margin20" />
+
+    <RelativeLayout
+               android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/news_relayout_new_friends"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@drawable/listview_backgroud_selector" >
+
+        <ImageView
+            android:id="@+id/news_img_new_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_20"
+            android:src="@drawable/news_new_friends" />
+
+        <TextView
+            android:id="@+id/news_tv_new_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/news_img_new_friends"
+            android:layout_toRightOf="@+id/news_img_new_friends"
+            android:text="@string/news_new_friends"
+            android:textColor="@color/news_text"
+            android:textSize="@dimen/text_size_17" />
+
+        <TextView
+            android:id="@+id/news_tv_new_friends_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/news_tv_new_friends"
+            android:layout_below="@+id/news_tv_new_friends"
+            android:text="好友请求提醒"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_12" />
+
+
+        <Button
+            android:id="@+id/news_new_friends_trackpoint"
+            style="@style/news_track_point"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_toLeftOf="@+id/news_tv_new_friends"
+            android:text="0"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_20"
+        android:background="@color/common_backgroud" />
+
+</LinearLayout>

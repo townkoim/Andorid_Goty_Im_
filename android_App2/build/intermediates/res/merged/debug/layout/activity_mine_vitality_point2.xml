@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="#F1F1F1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_20"
+        android:text="@string/nowadays_assignment"
+        android:textColor="#3e3a39"
+        android:textSize="@dimen/px_30" />
+
+    <View
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#adadad" />
+
+    <ListView
+        android:id="@+id/activity_vitality_point2_list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="#F1F1F1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_20"
+        android:text="@string/other_award"
+        android:textColor="#3e3a39"
+        android:textSize="@dimen/px_30" />
+
+    <ListView
+        android:id="@+id/activity_vitality_point2_list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:divider="#00000000" />
+<View
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F1F1" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_mine_vitality_point2.xml -->

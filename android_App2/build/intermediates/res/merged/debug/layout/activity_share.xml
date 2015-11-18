@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:id="@+id/activity_share_qq_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_150"
+        android:background="@drawable/selector_relativelayout"
+        android:paddingLeft="@dimen/px_20" >
+
+        <ImageView
+            android:id="@+id/activity_share_qq"
+            android:layout_width="@dimen/px_110"
+            android:layout_height="@dimen/px_110"
+            android:layout_centerVertical="true"
+            android:background="@drawable/qq"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_toRightOf="@+id/activity_share_qq"
+            android:text="@string/share_qq"
+            android:textSize="@dimen/text_size_17" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/px_20"
+        android:background="#adadad" />
+
+    <RelativeLayout
+        android:id="@+id/activity_share_we_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_150"
+        android:background="@drawable/selector_relativelayout"
+        android:paddingLeft="@dimen/px_20" >
+
+        <ImageView
+            android:id="@+id/activity_share_we"
+            android:layout_width="@dimen/px_110"
+            android:layout_height="@dimen/px_110"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wechat"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_toRightOf="@+id/activity_share_we"
+            android:text="@string/share_we_chat"
+            android:textSize="@dimen/text_size_17" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/px_20"
+        android:background="#adadad" />
+
+    <RelativeLayout
+        android:id="@+id/activity_share_sina_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_150"
+        android:background="@drawable/selector_relativelayout"
+        android:paddingLeft="@dimen/px_20" >
+
+        <ImageView
+            android:id="@+id/activity_share_sina"
+            android:layout_width="@dimen/px_110"
+            android:layout_height="@dimen/px_110"
+            android:layout_centerVertical="true"
+            android:background="@drawable/sina"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_toRightOf="@+id/activity_share_sina"
+            android:text="@string/share_sina"
+            android:textSize="@dimen/text_size_17" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_20"
+        android:text="@string/share_tips"
+        android:textColor="@color/ranking_area_color"
+        android:textSize="@dimen/text_size_15" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_share.xml -->

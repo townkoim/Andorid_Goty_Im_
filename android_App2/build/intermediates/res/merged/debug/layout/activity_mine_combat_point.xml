@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF0"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <TextView
+        android:id="@+id/activity_competiton_combat_point"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_20"
+        android:textColor="#65D55A"
+        android:textSize="@dimen/px_30" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_competiton_combat_point_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/white"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_mine_combat_point.xml -->

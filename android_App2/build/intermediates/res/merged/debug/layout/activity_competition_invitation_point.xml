@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFF1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_20"
+                android:text="@string/invitation_point_least15"
+                android:textSize="@dimen/px_30" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/px_20"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88" >
+
+            <EditText
+                android:id="@+id/activity_invitation_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#fff"
+                android:inputType="number"
+                android:hint="@string/input_invitation_point"
+                android:textColorHint="#e5e5e5"
+                android:textSize="@dimen/px_30" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/px_20"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_20"
+                android:text="@string/available_point"
+                android:textSize="@dimen/px_30" />
+
+            <TextView
+                android:id="@+id/activity_invitation_available_point"
+                android:layout_width="@dimen/px_100"
+                android:layout_height="@dimen/px_60"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:background="@drawable/button_fillet_bright_green"
+                android:gravity="center"
+                android:text="480"
+                android:textColor="#fff"
+                android:textSize="@dimen/px_30" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_invitation_point_publish"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_80"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_30"
+        android:background="@drawable/selector_invitation"
+        android:gravity="center"
+        android:text="@string/publish"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_40"
+        android:text="@string/tips"
+        android:textColor="@color/competition_tips_color"
+        android:textSize="@dimen/px_30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:text="@string/competition_tips1"
+        android:textColor="@color/competition_tips_color"
+        android:textSize="@dimen/px_30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:text="@string/competition_tips2"
+        android:textColor="@color/competition_tips_color"
+        android:textSize="@dimen/px_30" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_competition_invitation_point.xml -->

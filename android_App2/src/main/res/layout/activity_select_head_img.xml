@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:id="@+id/select_head_img_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:visibility="gone"
+        android:background="@drawable/selector_relativelayout" >
+
+        <View
+            android:id="@+id/head_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/head_view"
+            android:src="@drawable/common_camera"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/head_view"
+            android:text="@string/camera" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="90dip"
+        android:gravity="center"
+        android:horizontalSpacing="20dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dip" >
+    </GridView>
+
+</LinearLayout>

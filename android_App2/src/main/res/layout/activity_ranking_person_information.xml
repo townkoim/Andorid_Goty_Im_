@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/common_title" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_210"
+                android:background="#fff" >
+
+                <ImageView
+                    android:id="@+id/activity_rangking_person_information_head"
+                    android:layout_width="@dimen/px_150"
+                    android:layout_height="@dimen/px_150"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:layout_marginRight="@dimen/px_20"
+                    android:src="#000"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/activity_ranking_person_information_age_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/activity_ranking_person_information_head_img"
+                    android:layout_alignTop="@+id/activity_ranking_person_information_head_img"
+                    android:src="@drawable/age_man"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/activity_ranking_person_information_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/activity_ranking_person_information_head_img"
+                    android:layout_alignTop="@+id/activity_ranking_person_information_head_img"
+                    android:gravity="right"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/px_25" />
+
+                <ImageView
+                    android:id="@+id/activity_ranking_person_information_head_img"
+                    android:layout_width="@dimen/px_150"
+                    android:layout_height="@dimen/px_150"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:src="@drawable/head"
+                    tools:ignore="ContentDescription" />
+
+                <RelativeLayout
+                    android:id="@+id/activity_rangking_person_information_head1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px_40"
+                    android:layout_toRightOf="@+id/activity_rangking_person_information_head" >
+
+                    <TextView
+                        android:id="@+id/activity_ranking_person_information_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hello_world"
+                        android:textColor="#323333"
+                        android:textSize="@dimen/px_30" />
+
+                    <ImageView
+                        android:id="@+id/activity_ranking_person_information_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_10"
+                        android:layout_toRightOf="@+id/activity_ranking_person_information_name"
+                        android:src="@drawable/man"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/activity_ranking_person_information_vitality_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/px_50"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/px_20"
+                    android:layout_marginTop="@dimen/px_40"
+                    android:background="@drawable/vitality"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/px_25" />
+
+                <TextView
+                    android:id="@+id/activity_ranking_person_information_ranking_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/px_50"
+                    android:layout_marginTop="@dimen/px_40"
+                    android:textColor="#e50012"
+                    android:textSize="@dimen/px_30" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activity_rangking_person_information_head1"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:layout_toRightOf="@+id/activity_rangking_person_information_head" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/medal"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/activity_ranking_person_information_vitality_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_40"
+                        android:textColor="#717071"
+                        android:textSize="@dimen/px_28" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/activity_ranking_person_information_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activity_rangking_person_information_head1"
+                    android:layout_marginLeft="@dimen/px_10"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:textColor="#717071"
+                    android:textSize="@dimen/px_25" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_20"
+                android:background="#F1F1F1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_80" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_20"
+                        android:text="@string/user_area"
+                        android:textSize="@dimen/px_30" />
+
+                    <TextView
+                        android:id="@+id/activity_ranking_person_information_area"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_180"
+                        android:textColor="@color/person_information_textcolor"
+                        android:textSize="@dimen/text_size_14" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_2"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:background="#e5e5e5" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_80" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_20"
+                        android:text="@string/user_personal_signature"
+                        android:textSize="@dimen/px_30" />
+
+                    <TextView
+                        android:id="@+id/activity_ranking_person_information_signture"
+                        android:layout_width="@dimen/px_300"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_180"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textColor="@color/person_information_textcolor"
+                        android:textSize="@dimen/text_size_14" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_20"
+                    android:background="#F1F1F1" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_80" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px_20"
+                        android:text="@string/current_combat"
+                        android:textSize="@dimen/px_30" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_2"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:background="#e5e5e5" />
+				<TextView 
+				    android:id="@+id/activity_ranking_person_information_no_current"
+				    android:layout_width="match_parent"
+				    android:layout_height="@dimen/px_108"
+				    android:text="近期无战绩"
+				    android:layout_gravity="center"
+				    android:gravity="center"
+				    android:visibility="gone"
+				    android:textSize="@dimen/text_size_20"/>
+                <RelativeLayout
+                    android:id="@+id/activity_ranking_person_information_current1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_168"
+                    android:layout_marginLeft="@dimen/px_20" >
+
+                    <ImageView
+                        android:id="@+id/activity_ranking_person_information_combat1"
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="#000"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="@drawable/head"
+                        tools:ignore="ContentDescription" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/px_170"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/activity_ranking_person_information_combat1" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/vs"
+                            tools:ignore="ContentDescription" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/activity_ranking_person_information_combat2"
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginLeft="@dimen/px_290"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="#000"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginLeft="@dimen/px_290"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="@drawable/head"
+                        tools:ignore="ContentDescription" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/activity_ranking_person_information_combat2" >
+
+                        <TextView
+                            android:id="@+id/activity_ranking_person_information_result1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:textColor="#e50012"
+                            android:textSize="@dimen/px_38" />
+                    </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_2"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/activity_ranking_person_information_current2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_168"
+                    android:layout_marginLeft="@dimen/px_20" >
+
+                    <ImageView
+                        android:id="@+id/activity_ranking_person_information_combat3"
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="#000"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="@drawable/head"
+                        tools:ignore="ContentDescription" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/px_170"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/activity_ranking_person_information_combat3" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/vs"
+                            tools:ignore="ContentDescription" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/activity_ranking_person_information_combat4"
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginLeft="@dimen/px_290"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="#000"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_marginLeft="@dimen/px_290"
+                        android:layout_marginTop="@dimen/px_24"
+                        android:src="@drawable/head"
+                        tools:ignore="ContentDescription" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/activity_ranking_person_information_combat4" >
+
+                        <TextView
+                            android:id="@+id/activity_ranking_person_information_result2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:textColor="#e50012"
+                            android:textSize="@dimen/px_38" />
+                    </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_2"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/activity_ranking_person_information_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_78"
+        android:layout_alignParentBottom="true"
+        android:background="#e5e5e5"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment" >
+
+        <RelativeLayout
+            android:id="@+id/activity_ranking_person_information_ll_invatation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_ranking_listview" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/px_10"
+                android:layout_toLeftOf="@+id/activity_ranking_person_information_tx1"
+                android:src="@drawable/heart_press"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_ranking_person_information_tx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/invatation"
+                android:textColor="#909090" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_ranking_person_information_ll_chating"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_ranking_listview" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/px_10"
+                android:layout_toLeftOf="@+id/activity_ranking_person_information_tx2"
+                android:src="@drawable/chat_press"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_ranking_person_information_tx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/chating"
+                android:textColor="#909090" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_ranking_person_information_ll_friend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_ranking_listview"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/px_10"
+                android:layout_toLeftOf="@+id/activity_ranking_person_information_tx3"
+                android:src="@drawable/add_friends_press"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_ranking_person_information_tx3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/add_friends"
+                android:textColor="#909090" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

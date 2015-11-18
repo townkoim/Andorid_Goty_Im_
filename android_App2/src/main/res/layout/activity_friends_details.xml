@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_backgroud"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/px_30" >
+
+        <com.slife.gopapa.view.XCRoundRectImageView
+            android:id="@+id/friends_details_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_30"
+            android:src="@drawable/common_users_icon_default" />
+
+        <TextView
+            android:id="@+id/friends_details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_15"
+            android:layout_toRightOf="@+id/friends_details_icon"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/friends_details_papa_number_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/friends_details_name"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_toRightOf="@+id/friends_details_icon"
+            android:text="@string/user_papa_number"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/friends_details_papa_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/friends_details_papa_number_default"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_toRightOf="@+id/friends_details_papa_number_default"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/friends_details_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/friends_details_name"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/friends_details_ranking"
+            android:layout_toLeftOf="@+id/friends_details_ranking"
+            android:text="@string/ranking"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/px_30" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="@string/user_area"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/friends_details_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_1"
+            android:layout_marginBottom="@dimen/px_20"
+            android:layout_marginTop="@dimen/px_20"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="@string/user_personal_signature"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/friends_details_signature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/friends_details_add_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px_20"
+        android:padding="@dimen/px_20"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:background="@drawable/button_fillet_white" />
+
+</LinearLayout>

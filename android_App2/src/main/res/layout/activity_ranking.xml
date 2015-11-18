@@ -1,0 +1,249 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/activity_ranking_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@color/common_title_bg" >
+
+        <ImageView
+            android:id="@+id/common_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_20"
+            android:src="@drawable/location"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/common_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_toRightOf="@+id/common_title_back"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:id="@+id/common_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:id="@+id/common_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_no_ranking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/no_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/no_ranking"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/no_ranking"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_ranking"
+            android:layout_centerHorizontal="true"
+            android:text="@string/no_ranking"
+            android:textSize="@dimen/text_size_14"
+            android:textColor="@color/green" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_has_ranking"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/activity_ranking_title"
+        android:orientation="vertical" >
+
+        <com.viewpagerindicator.TabPageIndicator
+            android:id="@+id/activity_ranking_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6E6E6" />
+
+        <LinearLayout
+            android:id="@+id/activity_ranking_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_78"
+            android:background="@color/ranking_list_color_press"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_ranking_province"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/ranking_area_color"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:id="@+id/activity_ranking_city"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/ranking_area_color"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:id="@+id/activity_ranking_district"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/ranking_area_color"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:id="@+id/activity_ranking_school"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="@string/school"
+                android:textColor="@color/ranking_area_color"
+                android:textSize="@dimen/text_size_17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_78"
+            android:background="#E6E6E6"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/ranking2"
+                android:textColor="#3c3c3c"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="@string/user_nickname2"
+                android:textColor="#3c3c3c"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/win"
+                android:textColor="#3c3c3c"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/dogfall"
+                android:textColor="#3c3c3c"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/lose"
+                android:textColor="#3c3c3c"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_78"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/combat_history"
+                android:textColor="#3c3c3c"
+                android:textSize="@dimen/text_size_17" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_ranking_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_ranking_frame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:layout_alignParentBottom="true"
+        android:background="#88747071" >
+
+        <ImageView
+            android:id="@+id/activity_ranking_head"
+            android:layout_width="@dimen/px_120"
+            android:layout_height="@dimen/px_120"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_40"
+            android:background="#00000000"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/activity_ranking_current_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_toRightOf="@+id/activity_ranking_head"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/activity_ranking_current_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_toRightOf="@+id/activity_ranking_current_ranking"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+</RelativeLayout>

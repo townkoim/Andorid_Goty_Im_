@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:id="@+id/activity_modify_person_information_ll_type1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88" >
+
+            <EditText
+                android:id="@+id/activity_modify_person_information_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:background="#fff"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_20"
+                tools:ignore="TextFields" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_30"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:background="@drawable/et_line"
+                android:scaleType="center"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/activity_modify_person_information_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_20"
+            android:textColor="@color/competition_tips_color" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/activity_modify_person_information_input_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+         >
+    </ListView>
+
+</LinearLayout>

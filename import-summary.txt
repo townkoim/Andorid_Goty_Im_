@@ -1,0 +1,140 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Android_App2:
+* ic_launcher-web.png
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+From PullToRefreshLibrary:
+* LICENSE
+* pom.xml
+From WeiboSDK:
+* proguard-project.txt
+From library:
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In PullToRefreshLibrary:
+* AndroidManifest.xml => pullToRefreshLibrary\src\main\AndroidManifest.xml
+* assets\ => pullToRefreshLibrary\src\main\assets
+* res\ => pullToRefreshLibrary\src\main\res\
+* src\ => pullToRefreshLibrary\src\main\java\
+In library:
+* AndroidManifest.xml => library\src\main\AndroidManifest.xml
+* assets\ => library\src\main\assets
+* res\ => library\src\main\res\
+* src\ => library\src\main\java\
+In WeiboSDK:
+* AndroidManifest.xml => weiboSDK\src\main\AndroidManifest.xml
+* assets\ => weiboSDK\src\main\assets
+* libs\weibosdkcore.jar => weiboSDK\libs\weibosdkcore.jar
+* lint.xml => weiboSDK\lint.xml
+* res\ => weiboSDK\src\main\res\
+* src\ => weiboSDK\src\main\java\
+In Android_App2:
+* AndroidManifest.xml => android_App2\src\main\AndroidManifest.xml
+* assets\ => android_App2\src\main\assets\
+* libs\android_api_1.1_forsdk.jar => android_App2\libs\android_api_1.1_forsdk.jar
+* libs\armeabi-v7a\libamr.so => android_App2\src\main\jniLibs\armeabi-v7a\libamr.so
+* libs\armeabi-v7a\libapp_BaiduNaviApplib_v1_0_0.so => android_App2\src\main\jniLibs\armeabi-v7a\libapp_BaiduNaviApplib_v1_0_0.so
+* libs\armeabi-v7a\libBaiduMapSDK_v3_3_0_15.so => android_App2\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_v3_3_0_15.so
+* libs\armeabi-v7a\libCNPackage.so => android_App2\src\main\jniLibs\armeabi-v7a\libCNPackage.so
+* libs\armeabi-v7a\libejTTS.so => android_App2\src\main\jniLibs\armeabi-v7a\libejTTS.so
+* libs\armeabi-v7a\libgetuiext.so => android_App2\src\main\jniLibs\armeabi-v7a\libgetuiext.so
+* libs\armeabi-v7a\liblocnaviSDK.so => android_App2\src\main\jniLibs\armeabi-v7a\liblocnaviSDK.so
+* libs\armeabi-v7a\liblocSDK5.so => android_App2\src\main\jniLibs\armeabi-v7a\liblocSDK5.so
+* libs\armeabi\libamr.so => android_App2\src\main\jniLibs\armeabi\libamr.so
+* libs\armeabi\libapp_BaiduNaviApplib_v1_0_0.so => android_App2\src\main\jniLibs\armeabi\libapp_BaiduNaviApplib_v1_0_0.so
+* libs\armeabi\libBaiduMapSDK_v3_3_0_15.so => android_App2\src\main\jniLibs\armeabi\libBaiduMapSDK_v3_3_0_15.so
+* libs\armeabi\libCNPackage.so => android_App2\src\main\jniLibs\armeabi\libCNPackage.so
+* libs\armeabi\libejTTS.so => android_App2\src\main\jniLibs\armeabi\libejTTS.so
+* libs\armeabi\libgetuiext.so => android_App2\src\main\jniLibs\armeabi\libgetuiext.so
+* libs\armeabi\liblocnaviSDK.so => android_App2\src\main\jniLibs\armeabi\liblocnaviSDK.so
+* libs\armeabi\liblocSDK5.so => android_App2\src\main\jniLibs\armeabi\liblocSDK5.so
+* libs\BaiduLBS_Android.jar => android_App2\libs\BaiduLBS_Android.jar
+* libs\fastjson-1.1.34.android.jar => android_App2\libs\fastjson-1.1.34.android.jar
+* libs\galaxy_mini.jar => android_App2\libs\galaxy_mini.jar
+* libs\gesture_image.jar => android_App2\libs\gesture_image.jar
+* libs\GetuiExt-2.0.3.jar => android_App2\libs\GetuiExt-2.0.3.jar
+* libs\GetuiSdk2.4.1.0.jar => android_App2\libs\GetuiSdk2.4.1.0.jar
+* libs\gotye_api_release.jar => android_App2\libs\gotye_api_release.jar
+* libs\libammsdk.jar => android_App2\libs\libammsdk.jar
+* libs\mframework.jar => android_App2\libs\mframework.jar
+* libs\mta-sdk-1.6.2.jar => android_App2\libs\mta-sdk-1.6.2.jar
+* libs\open_sdk_r4547.jar => android_App2\libs\open_sdk_r4547.jar
+* libs\pinyin4j-2.5.0.jar => android_App2\libs\pinyin4j-2.5.0.jar
+* libs\ShareSDK-Core-2.5.8.jar => android_App2\libs\ShareSDK-Core-2.5.8.jar
+* libs\ShareSDK-QZone-2.5.8.jar => android_App2\libs\ShareSDK-QZone-2.5.8.jar
+* libs\ShareSDK-SinaWeibo-2.5.8.jar => android_App2\libs\ShareSDK-SinaWeibo-2.5.8.jar
+* libs\ShareSDK-Wechat-2.5.8.jar => android_App2\libs\ShareSDK-Wechat-2.5.8.jar
+* libs\ShareSDK-Wechat-Core-2.5.8.jar => android_App2\libs\ShareSDK-Wechat-Core-2.5.8.jar
+* libs\ShareSDK-Wechat-Favorite-2.5.8.jar => android_App2\libs\ShareSDK-Wechat-Favorite-2.5.8.jar
+* libs\ShareSDK-Wechat-Moments-2.5.8.jar => android_App2\libs\ShareSDK-Wechat-Moments-2.5.8.jar
+* libs\xUtils-2.6.14.jar => android_App2\libs\xUtils-2.6.14.jar
+* lint.xml => android_App2\lint.xml
+* proguard-project.txt => android_App2\proguard-project.txt
+* res\ => android_App2\src\main\res\
+* src\ => android_App2\src\main\java\
+* sound.WAV => sound.wav
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

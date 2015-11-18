@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_backgroud"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        style="@style/fedback_EditText"
+        android:layout_marginTop="@dimen/px_20" >
+
+        <EditText
+            android:id="@+id/feedback_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_10"
+            android:layout_toLeftOf="@+id/feedback_title_count"
+            android:background="@null"
+            android:hint="@string/feedback_title"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/feedback_title_allcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:text="/50"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/feedback_title_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/feedback_title_allcount"
+            android:text="0"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/fedback_EditText"
+        android:layout_height="@dimen/px_262"
+        android:layout_marginTop="@dimen/px_20" >
+
+        <EditText
+            android:id="@+id/feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/px_10"
+            android:layout_above="@+id/feedback_relayout"
+            android:gravity="top"
+            android:background="@null"
+            android:hint="@string/feedback_content"
+            android:textSize="@dimen/text_size_16" />
+
+        <RelativeLayout
+            android:id="@+id/feedback_relayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_marginBottom="@dimen/px_10" >
+
+            <TextView
+                android:id="@+id/feedback_content_allcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="/2000"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/feedback_content_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/feedback_content_allcount"
+                android:layout_toLeftOf="@+id/feedback_content_allcount"
+                android:text="0"
+                android:textSize="@dimen/text_size_16" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

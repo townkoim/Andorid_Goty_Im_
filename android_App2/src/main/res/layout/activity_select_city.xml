@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <TextView
+        android:id="@+id/activity_selelct_city"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_20"
+        android:textColor="#000" />
+
+    <ListView
+        android:id="@+id/activity_selelct_city_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00000000" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px_20"
+        android:background="@drawable/shape_for_my_join"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:background="@drawable/shape_for_my_join_green" >
+
+            <TextView
+                android:id="@+id/listview_my_join_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_20"
+                android:text="@string/competition_theme"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_10"
+                android:layout_alignParentBottom="true"
+                android:background="#f0ffff" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="@dimen/px_20"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_70" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/px_70"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_20"
+                android:text="@string/competition_invitation"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/listview_my_join_invitation"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/px_70"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_120"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_70" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/px_70"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_20"
+                android:text="@string/competition_item2"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/listview_my_join_item"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/px_70"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_120"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_70" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/px_70"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_20"
+                android:text="@string/competition_time"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/listview_my_join_time"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/px_70"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/px_120"
+                android:textColor="#231815"
+                android:textSize="@dimen/text_size_16" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/listview_my_join.xml -->

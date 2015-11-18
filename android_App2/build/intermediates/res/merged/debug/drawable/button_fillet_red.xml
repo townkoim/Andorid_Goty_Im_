@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="oval" >
+            <solid android:color="@color/red" />
+        </shape>
+    </item>
+
+</layer-list><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/drawable/button_fillet_red.xml -->

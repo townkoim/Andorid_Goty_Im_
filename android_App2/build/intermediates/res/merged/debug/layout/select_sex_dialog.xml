@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/px_500"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_100"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:text="性别"
+        android:textSize="@dimen/text_size_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/select_sex_dialog_man"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_80"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:text="@string/common_man"
+        android:textSize="@dimen/text_size_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/select_sex_dialog_woman"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_80"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:text="@string/common_woman"
+        android:textSize="@dimen/text_size_14" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/select_sex_dialog.xml -->

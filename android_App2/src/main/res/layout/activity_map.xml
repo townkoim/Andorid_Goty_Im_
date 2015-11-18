@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="#fff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="在"
+            android:textSize="@dimen/text_size_15" />
+
+        <EditText
+            android:id="@+id/activity_map_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_15"
+            android:text="深圳"
+            android:textSize="@dimen/text_size_15" />
+
+        <TextView
+            android:id="@+id/activity_map_city_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/activity_map_city"
+            android:text="市内搜索:"
+            android:textSize="@dimen/text_size_15" />
+
+        <EditText
+            android:id="@+id/activity_map_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/activity_map_city_right"
+            android:layout_margin="@dimen/px_5"
+            android:hint="请输入关键字"
+            android:textColorHint="#e5e5e5"
+            android:layout_toLeftOf="@+id/activity_map_search"
+            android:textSize="@dimen/text_size_15" />
+
+        <Button
+            android:id="@+id/activity_map_search"
+            android:layout_width="@dimen/px_100"
+            android:layout_height="@dimen/px_70"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_10"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_invitation"
+            android:text="搜索"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/activity_map_mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <ListView
+            android:id="@+id/activity_map_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_10"
+            android:divider="#00000000" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

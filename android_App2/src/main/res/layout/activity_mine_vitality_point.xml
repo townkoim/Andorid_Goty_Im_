@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="#F0F0F0" >
+
+        <TextView
+            android:id="@+id/activity_vitality_point_current_vitality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/px_20"
+            android:text="@string/current_vitality"
+            android:textSize="@dimen/px_30" />
+
+        <TextView
+            android:id="@+id/activity_vitality_point_vitality"
+            android:layout_width="@dimen/px_150"
+            android:layout_height="@dimen/px_50"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/activity_vitality_point_medal"
+            android:background="@drawable/vitality"
+            android:gravity="center"
+            android:padding="@dimen/px_5"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/activity_vitality_point_medal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_10"
+            android:layout_toLeftOf="@+id/activity_vitality_point_level"
+            android:src="@drawable/medal"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/activity_vitality_point_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:gravity="right"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5" />
+
+    <RelativeLayout
+        android:id="@+id/activity_vitality_point_howto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_88"
+        android:background="@drawable/selector_relativelayout" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/px_20"
+            android:text="@string/how_to_gain_point"
+            android:textSize="@dimen/px_30" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_20"
+            android:src="@drawable/next"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_20"
+        android:paddingLeft="@dimen/px_20"
+        android:paddingRight="@dimen/px_20"
+        android:text="@string/tips"
+        android:textColor="@color/competition_result_color"
+        android:textSize="@dimen/text_size_15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px_20"
+        android:paddingRight="@dimen/px_20"
+        android:text="@string/vitality_tip1"
+        android:textColor="@color/competition_result_color"
+        android:textSize="@dimen/text_size_15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px_20"
+        android:paddingRight="@dimen/px_20"
+        android:text="@string/vitality_tip2"
+        android:textColor="@color/competition_result_color"
+        android:textSize="@dimen/text_size_15" />
+
+</LinearLayout>

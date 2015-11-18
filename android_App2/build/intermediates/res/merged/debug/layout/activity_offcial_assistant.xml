@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_backgroud"
+    android:orientation="vertical" >
+	<include layout="@layout/common_title"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px_20"
+        android:padding="@dimen/px_10"
+        android:background="@drawable/shape_for_submit_result" >
+        
+        
+        <ImageView
+            android:id="@+id/offcial_assistant_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/px_20"
+            android:src="@drawable/news_official_assistant" />
+
+        <TextView
+            android:layout_toRightOf="@+id/offcial_assistant_img"
+            android:text="欢迎你关注啪啪江湖。如果你在使用中有任何问题或建议，记得给我们进行反馈。也欢迎你访问啪啪运动官网http://spapa.com.cn，关注啪啪运动的的最新状态。"
+            android:id="@+id/offcial_assistant_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_20"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_offcial_assistant.xml -->

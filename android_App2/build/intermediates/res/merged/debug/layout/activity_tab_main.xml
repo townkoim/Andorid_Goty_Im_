@@ -1,0 +1,136 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <!-- 底部菜单栏 -->
+
+        <View
+                android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_1"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/tab_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab_menu_backgroud"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/tab_relativelayout_ranking"
+                    style="@style/tab_menu_linearlayout" >
+
+                    <ImageView
+                        android:id="@+id/tab_img_ranking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/tab_ranking_select" />
+
+                    <TextView
+                        android:id="@+id/tab_ranking_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tab_img_ranking"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/px_5"
+                        android:text="排名"
+                        android:textColor="@color/text_green"
+                        android:textSize="@dimen/text_size_14" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab_relativelayout_news"
+                    style="@style/tab_menu_linearlayout" >
+
+                    <ImageView
+                        android:id="@+id/tab_img_news"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/tab_news_unselect" />
+
+                    <TextView
+                        android:id="@+id/tab_news_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tab_img_news"
+                        android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/px_5"
+                        android:text="消息"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_size_14" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab_relativelayout_mine"
+                    style="@style/tab_menu_linearlayout" >
+
+                    <ImageView
+                        android:id="@+id/tab_img_mine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/tab_mine_unselect" />
+
+                    <TextView
+                        android:id="@+id/tab_mine_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tab_img_mine"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/px_5"
+                        android:text="我的"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_size_14" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/tab_views"
+                android:layout_width="@dimen/px_1"
+                android:layout_height="@dimen/px_1"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/tab_news_count"
+                style="@style/news_track_point"
+                android:layout_marginLeft="@dimen/px_15"
+                android:layout_marginTop="@dimen/px_5"
+                android:layout_toRightOf="@+id/tab_views"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</TabHost><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_tab_main.xml -->

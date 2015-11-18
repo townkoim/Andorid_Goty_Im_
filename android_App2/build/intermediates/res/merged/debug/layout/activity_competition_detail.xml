@@ -1,0 +1,259 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEF0"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginRight="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_20"
+        android:background="@drawable/shape_for_submit_result"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/px_20" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px_30"
+            android:layout_marginTop="@dimen/px_30"
+            android:text="@string/competition_theme" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:id="@+id/activity_person_information_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px_20"
+            android:layout_marginTop="@dimen/px_30" >
+
+            <ImageView
+                android:id="@+id/activity_competition_detail_head"
+                android:layout_width="@dimen/px_120"
+                android:layout_height="@dimen/px_120"
+                android:src="#000"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/px_120"
+                android:layout_height="@dimen/px_120"
+                android:src="@drawable/head"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_marginTop="@dimen/px_5"
+                android:layout_toRightOf="@+id/activity_competition_detail_head"
+                android:textColor="#323333"
+                android:textSize="@dimen/px_30" />
+
+            <ImageView
+                android:id="@+id/activity_competition_detail_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_10"
+                android:layout_marginRight="@dimen/px_10"
+                android:layout_marginTop="@dimen/px_10"
+                android:layout_toRightOf="@+id/activity_competition_detail_name"
+                android:src="@drawable/man"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_ranking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/activity_competition_detail_name"
+                android:layout_below="@+id/activity_competition_detail_name"
+                android:layout_marginTop="@dimen/px_20"
+                android:text="@string/ranking"
+                android:textSize="@dimen/px_30" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_ranking_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/activity_competition_detail_ranking"
+                android:layout_marginTop="@dimen/px_20"
+                android:layout_toRightOf="@+id/activity_competition_detail_ranking"
+                android:textColor="#e50012"
+                android:textSize="@dimen/px_30" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_vitality"
+                android:layout_width="@dimen/px_150"
+                android:layout_height="@dimen/px_50"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:background="@drawable/vitality"
+                android:gravity="center"
+                android:padding="@dimen/px_5"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_40" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:src="@drawable/competition_item"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_60"
+                android:textColor="@color/competition_detail_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_40"
+            android:layout_marginTop="@dimen/px_10" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:src="@drawable/competition_position"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_60"
+                android:textColor="@color/competition_detail_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_40"
+            android:layout_marginTop="@dimen/px_10" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:src="@drawable/competition_time"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_60"
+                android:textColor="@color/competition_detail_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_40"
+            android:layout_marginTop="@dimen/px_10" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_10"
+                android:src="@drawable/competition_fee"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_fee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/px_60"
+                android:textColor="@color/competition_detail_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_120"
+            android:layout_marginBottom="@dimen/px_30"
+            android:layout_marginLeft="@dimen/px_10"
+            android:layout_marginTop="@dimen/px_10" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/competition_illustration"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_illustration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_50"
+                android:textColor="@color/competition_detail_color" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_chating"
+                android:layout_width="@dimen/px_160"
+                android:layout_height="@dimen/px_60"
+                android:layout_below="@+id/activity_competition_detail_illustration"
+                android:layout_marginTop="@dimen/px_30"
+                android:background="@drawable/button_fillet_deep_green"
+                android:gravity="center"
+                android:text="@string/chating"
+                android:textColor="#fff"
+                android:textSize="@dimen/px_32" />
+
+            <TextView
+                android:id="@+id/activity_competition_detail_accept"
+                android:layout_width="@dimen/px_160"
+                android:layout_height="@dimen/px_60"
+                android:layout_below="@+id/activity_competition_detail_illustration"
+                android:layout_marginLeft="@dimen/px_30"
+                android:layout_marginTop="@dimen/px_30"
+                android:layout_toRightOf="@+id/activity_competition_detail_chating"
+                android:background="@drawable/button_fillet_bright_green"
+                android:gravity="center"
+                android:text="@string/accept"
+                android:textColor="#fff"
+                android:textSize="@dimen/px_32" />
+
+            <ImageView
+                android:id="@+id/activity_competition_detail_combater"
+                android:layout_width="@dimen/px_120"
+                android:layout_height="@dimen/px_120"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:src="#000"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/px_120"
+                android:layout_height="@dimen/px_120"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/px_20"
+                android:src="@drawable/head"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_competition_detail.xml -->

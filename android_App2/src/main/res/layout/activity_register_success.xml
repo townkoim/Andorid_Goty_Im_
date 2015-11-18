@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/success_head"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_240"
+                android:layout_margin="@dimen/px_40" >
+
+                <ImageView
+                    android:id="@+id/success_logo"
+                    android:layout_width="@dimen/px_200"
+                    android:layout_height="@dimen/px_200"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/user_logo_default"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/success_upload_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/user_upload_icon" />
+
+                <ImageView
+                    android:id="@+id/success_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/success_logo"
+                    android:layout_alignBottom="@+id/success_logo"
+                    android:src="@drawable/common_camera" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_fillet_white"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_2"
+                    android:background="@color/gray" />
+
+                <RelativeLayout style="@style/Success_RelativeLayout" >
+
+                    <TextView
+                        android:id="@+id/success_tv_papanumber"
+                        style="@style/Success_TextView"
+                        android:text="@string/user_papa_number" />
+
+                    <TextView
+                        android:id="@+id/success_et_papanumber"
+                        style="@style/Success_EditText"
+                        android:layout_toRightOf="@+id/success_tv_papanumber" />
+                </RelativeLayout>
+
+                <include layout="@layout/common_view_margin20" />
+
+                <RelativeLayout style="@style/Success_RelativeLayout" >
+
+                    <TextView
+                        android:id="@+id/success_tv_nickname"
+                        style="@style/Success_TextView"
+                        android:text="@string/user_nickname" />
+
+                    <EditText
+                        android:id="@+id/success_et_nickname"
+                        style="@style/Success_EditText"
+                        android:layout_toRightOf="@+id/success_tv_nickname" />
+                </RelativeLayout>
+
+                <include layout="@layout/common_view_margin20" />
+
+                <RelativeLayout
+                    android:id="@+id/success_sex"
+                    style="@style/Success_RelativeLayout" >
+
+                    <TextView
+                        style="@style/Success_TextView"
+                        android:text="@string/user_sex" />
+
+                    <TextView
+                        android:id="@+id/success_tv_sex"
+                        style="@style/Success_TextView"
+                        android:layout_marginRight="@dimen/px_20"
+                        android:layout_toLeftOf="@+id/success_img_sex"
+                        android:text="@string/user_sex_default" />
+
+                    <ImageView
+                        android:id="@+id/success_img_sex"
+                        style="@style/Success_ImageView"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <include layout="@layout/common_view_margin20" />
+
+                <RelativeLayout
+                    android:id="@+id/success_age"
+                    style="@style/Success_RelativeLayout" >
+
+                    <TextView
+                        style="@style/Success_TextView"
+                        android:text="@string/user_birthday" />
+
+                    <TextView
+                        android:id="@+id/success_tv_age"
+                        style="@style/Success_TextView"
+                        android:layout_marginRight="@dimen/px_20"
+                        android:layout_toLeftOf="@+id/success_img_age"
+                        android:text="@string/user_birthday_default" />
+
+                    <ImageView
+                        android:id="@+id/success_img_age"
+                        style="@style/Success_ImageView"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <include layout="@layout/common_view_margin20" />
+
+                <RelativeLayout
+                    android:id="@+id/success_address"
+                    style="@style/Success_RelativeLayout" >
+
+                    <TextView
+                        style="@style/Success_TextView"
+                        android:text="@string/user_address" />
+
+                    <TextView
+                        android:id="@+id/success_tv_address"
+                        style="@style/Success_TextView"
+                        android:layout_marginRight="@dimen/px_20"
+                        android:layout_toLeftOf="@+id/success_img_address"
+                        android:text="@string/user_address_default" />
+
+                    <ImageView
+                        android:id="@+id/success_img_address"
+                        style="@style/Success_ImageView"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_3"
+                    android:background="@color/gray" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/success_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_70"
+                android:layout_marginRight="@dimen/px_70"
+                android:layout_marginTop="@dimen/px_52"
+                android:background="@drawable/button_fillet_white"
+                android:padding="@dimen/px_15"
+                android:text="@string/user_submit"
+                android:textColor="@color/common_button_blue"
+                android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

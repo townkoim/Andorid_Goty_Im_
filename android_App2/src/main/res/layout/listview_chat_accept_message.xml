@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_backgroud"
+    android:paddingBottom="@dimen/px_20"
+    android:paddingTop="@dimen/px_20" >
+
+    <TextView
+        android:id="@+id/chat_items_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/px_10"
+        android:layout_marginTop="@dimen/px_20"
+        android:alpha="0.5"
+        android:background="@drawable/textview_fillet_gray"
+        android:padding="@dimen/px_10"
+        android:text="2014/04/22 09:22:30"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat_items_time" >
+
+        <com.slife.gopapa.view.XCRoundRectImageView
+            android:id="@+id/chat_items_icon_accept"
+            android:layout_width="@dimen/px_90"
+            android:layout_height="@dimen/px_90"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_10"
+            android:src="@drawable/common_users_icon_default" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_40"
+            android:layout_toRightOf="@+id/chat_items_icon_accept"
+            android:background="@drawable/chat_message_send_accept_bg" >
+
+            <TextView
+                android:id="@+id/chat_items_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:padding="@dimen/px_20"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/chat_items_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/px_20"
+                android:src="@drawable/chat_voice_play01"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/chat_items_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/px_5"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

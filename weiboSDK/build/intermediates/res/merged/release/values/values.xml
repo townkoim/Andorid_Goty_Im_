@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="com_sina_weibo_sdk_blue">#3B5998</color>
+    <color name="com_sina_weibo_sdk_loginview_text_color">#FFFFFF</color>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <dimen name="com_sina_weibo_sdk_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding">12dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_bottom">6dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_left">12dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_right">16dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_top">6dp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_text_size">16.0sp</dimen>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="com_sina_weibo_sdk_login">登录</string>
+    <string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登录</string>
+    <string name="com_sina_weibo_sdk_logout">注销</string>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/build/intermediates/exploded-aar/Android_App2/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/F:/AndroidStudio/Android_App2/weiboSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="com_sina_weibo_sdk_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/com_sina_weibo_sdk_loginview_padding_left</item>
+        <item name="android:paddingTop">@dimen/com_sina_weibo_sdk_loginview_padding_top</item>
+        <item name="android:paddingRight">@dimen/com_sina_weibo_sdk_loginview_padding_right</item>
+        <item name="android:paddingBottom">@dimen/com_sina_weibo_sdk_loginview_padding_bottom</item>
+        <item name="android:drawableLeft">@drawable/ic_com_sina_weibo_sdk_logo</item>
+        <item name="android:drawablePadding">@dimen/com_sina_weibo_sdk_loginview_compound_drawable_padding</item>
+        <item name="android:background">@drawable/com_sina_weibo_sdk_button_blue</item>
+        <item name="android:textColor">@color/com_sina_weibo_sdk_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_sina_weibo_sdk_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/com_sina_weibo_sdk_login_with_weibo_account</item>
+    </style>
+    <style name="com_sina_weibo_sdk_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/com_sina_weibo_sdk_loginview_padding_left</item>
+        <item name="android:paddingTop">@dimen/com_sina_weibo_sdk_loginview_padding_top</item>
+        <item name="android:paddingRight">@dimen/com_sina_weibo_sdk_loginview_padding_right</item>
+        <item name="android:paddingBottom">@dimen/com_sina_weibo_sdk_loginview_padding_bottom</item>
+        <item name="android:drawableLeft">@drawable/ic_com_sina_weibo_sdk_logo</item>
+        <item name="android:drawablePadding">@dimen/com_sina_weibo_sdk_loginview_compound_drawable_padding</item>
+        <item name="android:background">@drawable/com_sina_weibo_sdk_button_grey</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:textSize">@dimen/com_sina_weibo_sdk_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/com_sina_weibo_sdk_login_with_weibo_account</item>
+    </style>
+</resources>

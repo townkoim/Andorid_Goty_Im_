@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_backgroud_selector"
+     android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+             android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/px_10">
+
+        <com.slife.gopapa.view.XCRoundRectImageView
+            android:id="@+id/contacts_friends_icon"
+            android:layout_width="@dimen/px_90"
+            android:layout_height="@dimen/px_90"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:src="@drawable/common_users_icon_default" />
+
+        <TextView
+            android:id="@+id/contacts_friends_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_20"
+            android:layout_toRightOf="@+id/contacts_friends_icon"
+            android:textSize="@dimen/text_size_16" />
+
+
+        <TextView
+            android:id="@+id/contacts_friends_addstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_45"
+            android:background="@drawable/text_fillet_green"
+            android:focusable="false"
+            android:paddingBottom="@dimen/px_10"
+            android:paddingLeft="@dimen/px_15"
+            android:paddingRight="@dimen/px_15"
+            android:paddingTop="@dimen/px_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/contacts_friends_added"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_45"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_14"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

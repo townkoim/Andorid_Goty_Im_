@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:descendantFocusability="blocksDescendants" >
+
+        <com.slife.gopapa.view.XCRoundRectImageView
+            android:id="@+id/news_items_icon"
+            android:layout_width="@dimen/px_90"
+            android:layout_height="@dimen/px_90"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/px_10"
+            android:src="@drawable/common_users_icon_default" />
+
+        <TextView
+            android:id="@+id/news_items_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_20"
+            android:layout_toLeftOf="@+id/news_items_time"
+            android:layout_toRightOf="@+id/news_items_icon"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_17" />
+
+        <TextView
+            android:id="@+id/news_items_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/news_items_name"
+            android:layout_below="@+id/news_items_name"
+            android:singleLine="true"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_15" />
+
+        <TextView
+            android:id="@+id/news_items_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/news_items_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/px_5"
+            android:layout_marginRight="@dimen/px_20"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_13" />
+
+        <Button
+            android:id="@+id/news_items_track_point"
+            style="@style/news_track_point"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/px_10"
+            android:layout_marginTop="@dimen/px_10"
+            android:layout_toLeftOf="@+id/news_items_name"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

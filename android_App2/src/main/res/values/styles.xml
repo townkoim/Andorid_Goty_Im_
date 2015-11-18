@@ -1,0 +1,105 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"></style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+    <!-- 注册，找回密码的EditText样式 -->
+    <style name="Login_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_88</item>
+        <item name="android:layout_marginLeft">@dimen/px_75</item>
+        <item name="android:layout_marginRight">@dimen/px_75</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/textview_fillet_white</item>
+        <item name="android:paddingLeft">@dimen/px_10</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+	
+        <style name="fedback_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_88</item>
+        <item name="android:layout_marginLeft">@dimen/px_35</item>
+        <item name="android:layout_marginRight">@dimen/px_35</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/textview_fillet_white1</item>
+        <item name="android:paddingLeft">@dimen/px_10</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+    
+    <!-- 填写个人资料的控件样式 -->
+    <style name="Success_RelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/px_20</item>
+    </style>
+
+    <style name="Success_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Success_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/px_45</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_17</item>
+         <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Success_ImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/px_20</item>
+        <item name="android:src">@drawable/common_next</item>
+    </style>
+
+    <!-- 底部菜单栏 -->
+    <!-- 底部菜单LinearLayout属性 -->
+    <style name="tab_menu_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">@dimen/px_10</item>
+    </style>
+
+    <!-- 消息提示的小红点 -->
+    <style name="news_track_point">
+        <item name="android:layout_width">@dimen/px_30</item>
+        <item name="android:layout_height">@dimen/px_30</item>
+        <item name="android:background">@drawable/button_fillet_red</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/white</item>
+          <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Dialog -->
+     <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/dialog</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+    
+     <!-- BUG反馈LinearLayout -->
+     <style name="feedback_bug_linearlayout">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:orientation">horizontal</item>
+         <item name="android:background">@color/white</item>
+         <item name="android:gravity">center</item>
+         <item name="android:layout_marginTop">@dimen/px_5</item>
+         <item name="android:padding">@dimen/px_5</item>
+     </style>
+</resources>

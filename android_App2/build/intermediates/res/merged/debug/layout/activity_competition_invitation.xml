@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:text="@string/competition_theme" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#e5e5e5" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <EditText
+                    android:id="@+id/activity_invitation_competition_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:background="#fff"
+                    android:hint="@string/input_competition_theme"
+                    android:textColorHint="#e5e5e5"
+                    android:textSize="@dimen/px_28" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_20"
+                android:background="#F1F1F1" />
+
+            <RelativeLayout
+                android:id="@+id/activity_invitation_competition_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:text="@string/competition_item" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/px_20"
+                    android:src="@drawable/next"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/activity_invitation_competition_item_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/px_50"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#e5e5e5" />
+
+            <RelativeLayout
+                android:id="@+id/activity_invitation_competition_fee"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:text="@string/competition_fee" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/px_20"
+                    android:src="@drawable/next"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/activity_invitation_competition_fee_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/px_50"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#e5e5e5" />
+
+            <RelativeLayout
+                android:id="@+id/activity_invitation_competition_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:text="@string/common_time" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/px_20"
+                    android:src="@drawable/next"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/activity_invitation_competition_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/px_50"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#e5e5e5" />
+
+            <RelativeLayout
+                android:id="@+id/activity_invitation_competition_position"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:text="@string/common_position" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/px_20"
+                    android:src="@drawable/next"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/activity_invitation_competition_position_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/px_50"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#e5e5e5" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_88" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:text="@string/competition_illustration" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/px_20"
+                android:background="#e5e5e5" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_180" >
+
+                <EditText
+                    android:id="@+id/activity_invitation_competition_illustration"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_150"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:layout_marginRight="@dimen/px_20"
+                    android:layout_marginTop="@dimen/px_30"
+                    android:background="#fff"
+                    android:gravity="top"
+                    android:hint="@string/input_competition_illustration"
+                    android:textColorHint="#e5e5e5"
+                    android:textSize="@dimen/px_28" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/activity_invitation_publish"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_80"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:layout_marginTop="@dimen/px_30"
+                android:background="@drawable/selector_invitation"
+                android:gravity="center"
+                android:text="@string/publish"
+                android:textColor="#fff"
+                android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/F:/AndroidStudio/Android_App2/android_App2/src/main/res/layout/activity_competition_invitation.xml -->
